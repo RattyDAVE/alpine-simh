@@ -39,10 +39,7 @@ altcpm      62K CP/M VERSION 2.2 (ALTAIR 8800)
 
 ### altairz80
 
-
-To run
-
-``` 
+``` To Run
 cd /machines/altairz80 
 altairz80 cpm3
 ```
@@ -52,7 +49,8 @@ cpm3 and zork
 To load ZORK1, 2 and 3 into the CPM disk.  When loaded type the following.
 
 ```
-i:a:r ZORK1.COM
+i:
+a:r ZORK1.COM
 a:r ZORK1.DAT
 a:r ZORK2.COM
 a:r ZORK2.DAT

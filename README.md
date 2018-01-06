@@ -7,7 +7,18 @@
 
 
 
-simh built from source, contains the following:
+simh built from source.
+
+To run the included machines change directory to the machine directory and run the command:
+
+```Example
+
+cd /machines/altairz80
+altairz80 cpm3 
+
+```
+
+contains the following:
 
 Emulator | to run | Contents | Notes
 --- | --- | --- | --- |

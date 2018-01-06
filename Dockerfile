@@ -14,6 +14,28 @@ RUN apk --update --no-cache add $RUNPKGS && rm -rf /var/cache/apk/* && \
     mkdir /machines && \
     cd /machines && \
 \
+    mkdir /machines/3b2 && \
+    cd /machines/3b2 && \
+    # Taken From https://loomcom.com/3b2/emulator/ \
+    echo "set cpu 4M" > 3b2 && \
+    echo "set cpu idle" >> 3b2 && \
+    echo "set id0 HD161" >> 3b2 && \
+    echo "attach nvram nvram.bin" >> 3b2 && \
+    echo "attach tod tod.bin" >> 3b2 && \
+    echo "attach id0 hd161_extras.img" >> 3b2 && \
+    echo "attach if floppy_disk.img" >> 3b2 && \
+    echo "attach contty 8888" >> 3b2 && \
+    echo "boot cpu" >> 3b2 && \
+    wget https://loomcom.com/3b2/emulator/hd161_extras.img.gz && \
+    gzip -d hd161_extras.img.gz && \
+    wget https://loomcom.com/3b2/emulator/nvram.bin && \
+\
+    mkdir /machines/altair && \
+    cd /machines/altair && \
+    wget http://schorn.ch/cpm/zip/altsw.zip && \
+    unzip altsw.zip && \
+    rm altsw.zip && \
+/
     mkdir /machines/altairz80 && \
     cd /machines/altairz80 && \
     wget https://schorn.ch/cpm/zip/cpm3.zip && \
@@ -22,12 +44,6 @@ RUN apk --update --no-cache add $RUNPKGS && rm -rf /var/cache/apk/* && \
     wget http://www.retroarchive.org/cpm/games/zork123_80.zip && \
     unzip zork123_80.zip && \
     rm zork123_80.zip && \
-\
-    mkdir /machines/altair && \
-    cd /machines/altair && \
-    wget http://schorn.ch/cpm/zip/altsw.zip && \
-    unzip altsw.zip && \
-    rm altsw.zip && \
 \
     apk del build-dependencies && \
     rm -rf /var/cache/apk/* 

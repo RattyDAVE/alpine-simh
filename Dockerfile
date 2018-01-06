@@ -25,7 +25,7 @@ RUN apk --update --no-cache add $RUNPKGS && rm -rf /var/cache/apk/* && \
 \
     mkdir /machines/altair && \
     cd /machines/altair && \
-    https://schorn.ch/cpm/zip/altsw.zip && \
+    wget http://schorn.ch/cpm/zip/altsw.zip && \
     unzip altsw.zip && \
     rm altsw.zip && \
 \

@@ -1,6 +1,6 @@
 FROM alpine:latest
 #ARG sims="vax vax780 vax8600 pdp11 pdp8"
-ARG sims=" "
+ARG sims="all"
 
 ENV BUILDPKGS "git gcc libc-dev make vde2-dev libpcap-dev linux-headers readline-dev"
 ENV RUNPKGS "net-tools vde2 vde2-libs libpcap nano readline bash"

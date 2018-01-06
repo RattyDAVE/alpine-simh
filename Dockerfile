@@ -22,7 +22,13 @@ RUN apk --update --no-cache add $RUNPKGS && rm -rf /var/cache/apk/* && \
     wget http://www.retroarchive.org/cpm/games/zork123_80.zip && \
     unzip zork123_80.zip && \
     rm zork123_80.zip && \
-\    
+\
+    mkdir /machines/altairz80 && \
+    cd /machines/altairz80 && \
+    https://schorn.ch/cpm/zip/altsw.zip
+    unzip altsw.zip && \
+    rm altsw.zip && \
+\
     apk del build-dependencies && \
     rm -rf /var/cache/apk/* 
 

@@ -24,6 +24,12 @@ contains the following:
 ### 3b2
 ### altair
 
+To RUN use one of the simh files.
+```
+cd /machines/altair 
+altair disbas50
+```
+
 ``` SIMH file   Name                        NameDetails                 Copyright
 disbas50    ALTAIR BASIC 5.0 [14JUL78]  [DISK EXTENDED VERSION]     COPYRIGHT 1978 BY MITS INC.
 basex       ALTAIR BASIC REV. 4.0       [EXTENDED VERSION]          COPYRIGHT 1977 BY MITS INC.
@@ -39,7 +45,8 @@ altcpm      62K CP/M VERSION 2.2 (ALTAIR 8800)
 
 ### altairz80
 
-``` To Run
+To RUN
+```
 cd /machines/altairz80 
 altairz80 cpm3
 ```

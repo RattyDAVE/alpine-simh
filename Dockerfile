@@ -23,9 +23,9 @@ RUN apk --update --no-cache add $RUNPKGS && rm -rf /var/cache/apk/* && \
     unzip zork123_80.zip && \
     rm zork123_80.zip && \
 \
-    mkdir /machines/altairz80 && \
-    cd /machines/altairz80 && \
-    https://schorn.ch/cpm/zip/altsw.zip
+    mkdir /machines/altair && \
+    cd /machines/altair && \
+    https://schorn.ch/cpm/zip/altsw.zip && \
     unzip altsw.zip && \
     rm altsw.zip && \
 \

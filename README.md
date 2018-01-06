@@ -21,8 +21,11 @@ altairz80 cpm3
 contains the following:
 
 
-### 3b2
-### altair
+### 3b2 https://en.wikipedia.org/wiki/3B_series_computers
+
+See https://loomcom.com/3b2/emulator/
+
+### altair https://en.wikipedia.org/wiki/Altair_8800
 
 To RUN use one of the simh files.
 ```

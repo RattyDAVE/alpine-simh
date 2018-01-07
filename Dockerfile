@@ -1,7 +1,7 @@
 FROM alpine:edge
 
-ENV BUILDPKGS "git gcc libc-dev make vde2-dev libpcap-dev linux-headers readline-dev wget unzip"
-ENV RUNPKGS "net-tools vde2 vde2-libs libpcap nano readline bash"
+ENV BUILDPKGS "git gcc libc-dev make vde2-dev libpcap-dev linux-headers readline-dev"
+ENV RUNPKGS "net-tools vde2 vde2-libs libpcap nano readline bash  wget unzip"
 
 RUN apk --update --no-cache add $RUNPKGS && rm -rf /var/cache/apk/* && \
     apk --no-cache add --virtual build-dependencies $BUILDPKGS && \

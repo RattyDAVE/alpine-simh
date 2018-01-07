@@ -65,7 +65,7 @@ RUN apk --update --no-cache add $RUNPKGS && rm -rf /var/cache/apk/* && \
 \
     mkdir /machines/eclipse && \
     cd /machines/eclipse && \
-    wget http://simh.trailing-edge.com/kits/zrdos75.zip
+    wget http://simh.trailing-edge.com/kits/zrdos75.zip && \
 \
     apk del build-dependencies && \
     rm -rf /var/cache/apk/* 

@@ -1,0 +1,10 @@
+    set cpu 4M
+    set cpu idle
+    set id0 HD161
+    attach nvram nvram.bin
+    attach tod tod.bin
+    attach id0 hd161_extras.img
+    attach if floppy_disk.img
+    attach contty 8888
+    boot cpu
+    

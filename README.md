@@ -80,7 +80,17 @@ a:r ZORK3.DAT
 
 ```
 
-### b5500
+### b5500 https://en.wikipedia.org/wiki/Burroughs_large_systems
+
+See http://sky-visions.com/burroughs/index.shtml
+
+To RUN
+
+```
+cd /machines/b5500
+b5500 b5500
+```
+
 ### cdc1700
 ### eclipse
 ### gri

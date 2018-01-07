@@ -58,6 +58,11 @@ RUN apk --update --no-cache add $RUNPKGS && rm -rf /var/cache/apk/* && \
     echo "bo cr" >> b5500 && \
     wget http://sky-visions.com/burroughs/cold.deck && \
 \
+    mkdir /machines/cdc1700 && \
+    cd /machines/cdc1700 && \
+    # Taken from http://www.bitsavers.org/bits/CDC/1700_Cyber18/20100524/ \
+    wget http://www.bitsavers.org/bits/CDC/1700_Cyber18/20100524/MSOS5_SL136.tap && \
+\
     apk del build-dependencies && \
     rm -rf /var/cache/apk/* 
 

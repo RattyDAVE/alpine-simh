@@ -1,9 +1,8 @@
-;
 ; Load CPU microcode
-; load -r /usr/local/vax/data/ka655.bin
+load -r /usr/src/simh/VAX/ka655.bin
 ;
 ; Attach non-volatile RAM to a file
-attach nvr /usr/local/vax/data/nvram.bin
+attach nvr nvram.bin
 ;
 ; This virtual machine has 64M memory
 set cpu 64m
@@ -15,12 +14,13 @@ set rq2 ra92
 set rq3 cdrom
 ;
 ; Attach defined drives to local files
-attach rq0 /usr/local/vax/data/d0.dsk
-attach rq1 /usr/local/vax/data/d1.dsk
-attach rq2 /usr/local/vax/data/d2.dsk
+attach rq0 d0.dsk
+attach rq1 d1.dsk
+attach rq2 d2.dsk
 ;
 ; Attach the CD-ROM to its file (read-only) 
-attach -r rq3 /usr/local/vax/data/cd.iso
+;attach -r rq3 /usr/local/vax/data/cd.iso
+attach -r rq3 OpenVMS_VAX_7.3.img
 ;
 ; Disable unused devices. It's also possible to disable individual devices,
 ; using a construction like "set rq2 disable" if desired. 

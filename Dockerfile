@@ -35,7 +35,7 @@ RUN apk --update --no-cache add $RUNPKGS && rm -rf /var/cache/apk/* && \
     wget http://schorn.ch/cpm/zip/altsw.zip && \
     unzip altsw.zip && \
     rm altsw.zip && \
-/
+\
     mkdir /machines/altairz80 && \
     cd /machines/altairz80 && \
     wget https://schorn.ch/cpm/zip/cpm3.zip && \
@@ -44,6 +44,19 @@ RUN apk --update --no-cache add $RUNPKGS && rm -rf /var/cache/apk/* && \
     wget http://www.retroarchive.org/cpm/games/zork123_80.zip && \
     unzip zork123_80.zip && \
     rm zork123_80.zip && \
+\
+    mkdir /machines/b5500 && \
+    cd /machines/b5500 && \
+    # Taken from http://sky-visions.com/burroughs/index.shtml \
+    echo "at cr cold.deck" > b5500 && \
+    echo "at mt0 -f p7b B5500-XIII-SYSTEM-adc00257.bcd" >> b5500 && \ 
+    echo "set mt0 locked" >> b5500 && \
+    echo "at esu0 xiii.dsk" >> b5500 && \
+    echo "at cp out.dck" >> b5500 && \
+    echo "at lp out.lst" >> b5500 && \
+    echo "at dtc 2000" >> b5500 && \
+    echo "bo cr" >> b5500 && \
+    wget http://sky-visions.com/burroughs/cold.deck && \
 \
     apk del build-dependencies && \
     rm -rf /var/cache/apk/* 

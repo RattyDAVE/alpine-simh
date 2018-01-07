@@ -149,3 +149,10 @@ Tape is there no config.
 ### vax780
 ### vax8600
 
+OpenVMS VAX 7.3 template.
+You will need to source a copy of the install CD. Called *OpenVMS_VAX_7.3.img.bz2* and also the licenses. 
+
+https://www.hpe.com/emea_europe/en/servers/openvms/licensing.html or *LMFgen*
+
+
+

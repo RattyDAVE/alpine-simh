@@ -96,7 +96,7 @@ b5500 b5500
 Work in progress
 Tape is there no config.
 
-### eclipse
+### eclipse https://en.wikipedia.org/wiki/Data_General_Eclipse
 ### gri
 ### h316
 ### hp2100

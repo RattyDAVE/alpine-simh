@@ -91,7 +91,10 @@ cd /machines/b5500
 b5500 b5500
 ```
 
-### cdc1700
+### cdc1700 https://en.wikipedia.org/wiki/CDC_1700
+
+
+
 ### eclipse
 ### gri
 ### h316

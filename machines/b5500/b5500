@@ -1,0 +1,9 @@
+    at cr cold.deck
+    at mt0 -f p7b B5500-XIII-SYSTEM-adc00257.bcd 
+    set mt0 locked
+    at esu0 xiii.dsk
+    at cp out.dck
+    at lp out.lst
+    at dtc 2000
+    bo cr"
+    

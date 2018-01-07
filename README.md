@@ -1,6 +1,10 @@
 # alpine-simh
 
 
+PLEASE NOTE THIS IS WORK IN PROGRESS!!!!!!!! 
+
+Use https://github.com/RattyDAVE/alpine-simh/issues to send feedback, issues, comments and general chat.
+
 
 
 

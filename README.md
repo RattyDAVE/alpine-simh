@@ -64,14 +64,19 @@ See http://sky-visions.com/burroughs/index.shtml
 FINAL CHECK NEEDED
 
 ### BESM6 https://en.wikipedia.org/wiki/BESM-6
-No scripts yet.
+Unable to find media.
 
 ### cdc1700 https://en.wikipedia.org/wiki/CDC_1700
 
 FINAL CHECK NEEDED
 
 ### eclipse https://en.wikipedia.org/wiki/Data_General_Eclipse
+
+FINAL CHECK NEEDED
+
 ### gri
+Unable to find media.
+
 ### h316
 ### hp2100
 ### hp3000

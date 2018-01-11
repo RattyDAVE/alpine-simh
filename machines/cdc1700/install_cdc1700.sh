@@ -3,5 +3,6 @@
 wget http://www.bitsavers.org/bits/CDC/1700_Cyber18/20100524/MSOS5_SL136.tap
 #cp /usr/src/simh/CDC1700/customization/custom5/* .
 cp /usr/src/simh/CDC1700/*.simh .
+echo -e "\n\necho INSTALL FINISHED\n\nQUIT\n" >> msosInstall.simh
 cdc1700 msosInstall.simh MSOS5_SL136.tap
 

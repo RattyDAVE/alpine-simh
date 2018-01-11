@@ -40,27 +40,22 @@ UNIX(R) System V Release 3.2 AT&T 3B2 Version 2 pre installed and ready to run.
 ### altair https://en.wikipedia.org/wiki/Altair_8800
 SEE README.md
 
-FINAL CHECK NEEDED
-
 ### altairz80
 Includeds CPM3 and zork (see README.md in /machines/altairz80)
 
-FINAL CHECK NEEDED
-
 ### b5500 https://en.wikipedia.org/wiki/Burroughs_large_systems
 See http://sky-visions.com/burroughs/index.shtml
-
-FINAL CHECK NEEDED
+Install working needs more work.
 
 ### BESM6 https://en.wikipedia.org/wiki/BESM-6
 Unable to find media.
 
 ### cdc1700 https://en.wikipedia.org/wiki/CDC_1700
-FINAL CHECK NEEDED
+Install works OK.
+Run does not.
 
 ### eclipse https://en.wikipedia.org/wiki/Data_General_Eclipse
-
-FINAL CHECK NEEDED
+Mapped ECLIPSE RDOS Rev 7.50
 
 ### gri
 Unable to find media.

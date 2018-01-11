@@ -62,26 +62,13 @@ altcpm      62K CP/M VERSION 2.2 (ALTAIR 8800)
 
 ### altairz80
 
+Includeds CPM3 and zork (see README.md in /machines/altairz80)
+
 To RUN
 
 ```
 cd /machines/altairz80 
 altairz80 cpm3
-```
-
-cpm3 and zork
-
-To load ZORK1, 2 and 3 into the CPM disk.  When loaded type the following.
-
-```
-i:
-a:r ZORK1.COM
-a:r ZORK1.DAT
-a:r ZORK2.COM
-a:r ZORK2.DAT
-a:r ZORK3.COM
-a:r ZORK3.DAT
-
 ```
 
 ### b5500 https://en.wikipedia.org/wiki/Burroughs_large_systems
@@ -98,7 +85,22 @@ b5500 b5500
 ### cdc1700 https://en.wikipedia.org/wiki/CDC_1700
 
 Work in progress
-Tape is there no config.
+
+To Install
+
+```
+cd /machines/cdc1700
+./install_cdc1700.sh
+```
+
+To RUN
+
+```
+cd /machines/cdc1700
+./run_cdc1700.sh
+```
+
+
 
 ### eclipse https://en.wikipedia.org/wiki/Data_General_Eclipse
 ### gri

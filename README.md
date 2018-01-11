@@ -113,7 +113,7 @@ FINAL CHECK NEEDED
 ### swtp6800mp-a
 ### swtp6800mp-a2
 ### tx-0
-### vax
+### vax https://en.wikipedia.org/wiki/VAX
 
 Ready to run OpenVMS VAX 7.3
 

@@ -13,16 +13,26 @@ Use https://github.com/RattyDAVE/alpine-simh/issues to send feedback, issues, co
 
 simh built from source.
 
-To run the included machines change directory to the machine directory and run the command:
+To run the included machines change directory to the /machine directory and then change to the sub directory for the machine.
+
+In there are the install and run scripts.
+
+Example to INSTALL.
 
 ```
-
-cd /machines/altairz80
-altairz80 cpm3 
-
+cd /machines/3b2
+./install_3b2.sh
 ```
 
-contains the following:
+Example to RUN.
+
+```
+cd /machines/3b2
+./run_3b2.sh
+```
+
+
+
 
 
 ### 3b2 https://en.wikipedia.org/wiki/3B_series_computers
@@ -31,10 +41,12 @@ See https://loomcom.com/3b2/emulator/
 
 UNIX SVR3 pre installed and ready to run.
 
+To install:
 ```
-cd /machines/3b2
-3b2 3b2
+./install_3b2.sh
 ```
+
+
 
 
 ### altair https://en.wikipedia.org/wiki/Altair_8800
@@ -81,6 +93,9 @@ To RUN
 cd /machines/b5500
 b5500 b5500
 ```
+
+### BESM6 https://en.wikipedia.org/wiki/BESM-6
+No scripts yet.
 
 ### cdc1700 https://en.wikipedia.org/wiki/CDC_1700
 

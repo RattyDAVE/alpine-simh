@@ -31,6 +31,8 @@ cd /machines/3b2
 ./run_3b2.sh
 ```
 
+A README.md may also be included for information on how to use it. 
+
 
 
 
@@ -41,47 +43,19 @@ See https://loomcom.com/3b2/emulator/
 
 UNIX SVR3 pre installed and ready to run.
 
-To install:
-```
-./install_3b2.sh
-```
-
-
-
+FINAL CHECK NEEDED
 
 ### altair https://en.wikipedia.org/wiki/Altair_8800
 
-To RUN use one of the simh files.
+SEE README.md
 
-```
-cd /machines/altair 
-altair disbas50
-```
-
-```
-SIMH file   Name                        NameDetails                 Copyright
-disbas50    ALTAIR BASIC 5.0 [14JUL78]  [DISK EXTENDED VERSION]     COPYRIGHT 1978 BY MITS INC.
-basex       ALTAIR BASIC REV. 4.0       [EXTENDED VERSION]          COPYRIGHT 1977 BY MITS INC.
-basdsk      ALTAIR BASIC REV. 4.1       [DISK EXTENDED VERSION]     COPYRIGHT 1977 BY MITS INC.
-bas440      4K BASIC 4.0                                            COPYRIGHT MITS 1976
-bas432      BASIC VERSION 3.2           [4K VERSION]
-bas8        ALTAIR BASIC REV. 4.0       [EIGHT-K VERSION]           COPYRIGHT 1976 BY MITS INC.
-bas5        ALTAIR DISK EXTENDED BASIC  VERSION 300-5-C [01NOV78]   COPYRIGHT 1978 BY MITS INC.
-
-altdos      DOS MONITOR VER 1.0                                     COPYRIGHT 1977 BY MITS INC
-altcpm      62K CP/M VERSION 2.2 (ALTAIR 8800)
-```
+FINAL CHECK NEEDED
 
 ### altairz80
 
 Includeds CPM3 and zork (see README.md in /machines/altairz80)
 
-To RUN
-
-```
-cd /machines/altairz80 
-altairz80 cpm3
-```
+FINAL CHECK NEEDED
 
 ### b5500 https://en.wikipedia.org/wiki/Burroughs_large_systems
 

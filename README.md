@@ -61,35 +61,14 @@ FINAL CHECK NEEDED
 
 See http://sky-visions.com/burroughs/index.shtml
 
-To RUN
-
-```
-cd /machines/b5500
-b5500 b5500
-```
+FINAL CHECK NEEDED
 
 ### BESM6 https://en.wikipedia.org/wiki/BESM-6
 No scripts yet.
 
 ### cdc1700 https://en.wikipedia.org/wiki/CDC_1700
 
-Work in progress
-
-To Install
-
-```
-cd /machines/cdc1700
-./install_cdc1700.sh
-```
-
-To RUN
-
-```
-cd /machines/cdc1700
-./run_cdc1700.sh
-```
-
-
+FINAL CHECK NEEDED
 
 ### eclipse https://en.wikipedia.org/wiki/Data_General_Eclipse
 ### gri
@@ -135,41 +114,16 @@ cd /machines/cdc1700
 ### swtp6800mp-a2
 ### tx-0
 ### vax
+
+Ready to run OpenVMS VAX 7.3
+
+See README.md
+
+FINAL CHECK NEEDED
+
 ### vax730
 ### vax750
 ### vax780
 ### vax8600
 
-OpenVMS VAX 7.3 template.
-You will need to source a copy of the install CD. Called **OpenVMS_VAX_7.3.img.bz2** and also the licenses. 
-
-https://www.hpe.com/emea_europe/en/servers/openvms/licensing.html or **LMFgen**
-
-To install the PAK file (Licenses). When installing and you get to the stage.
-
-```
-* Do you want to register any Product Authorization Keys? (Y/N):
-```
-
-The install will then Quit.
-
-Enter the following:
-
-```
-SET TERMINAL/INQUIRE
-SET TERMINAL/NOWRAP
-CREATE PAKS.COM
-```
-
-Cut and paste from the PAK file, then press CTRL-Z to save.
-
-Then enter the following to run.
-
-```
-@PAKS.COM
-```
-
-
-
-
-
+FINAL CHECK NEEDED

@@ -33,32 +33,21 @@ cd /machines/3b2
 
 A README.md may also be included for information on how to use it. 
 
-
-
-
-
 ### 3b2 https://en.wikipedia.org/wiki/3B_series_computers
-
 See https://loomcom.com/3b2/emulator/
-
-UNIX SVR3 pre installed and ready to run.
-
-FINAL CHECK NEEDED
+UNIX(R) System V Release 3.2 AT&T 3B2 Version 2 pre installed and ready to run.
 
 ### altair https://en.wikipedia.org/wiki/Altair_8800
-
 SEE README.md
 
 FINAL CHECK NEEDED
 
 ### altairz80
-
 Includeds CPM3 and zork (see README.md in /machines/altairz80)
 
 FINAL CHECK NEEDED
 
 ### b5500 https://en.wikipedia.org/wiki/Burroughs_large_systems
-
 See http://sky-visions.com/burroughs/index.shtml
 
 FINAL CHECK NEEDED
@@ -67,7 +56,6 @@ FINAL CHECK NEEDED
 Unable to find media.
 
 ### cdc1700 https://en.wikipedia.org/wiki/CDC_1700
-
 FINAL CHECK NEEDED
 
 ### eclipse https://en.wikipedia.org/wiki/Data_General_Eclipse
@@ -78,6 +66,8 @@ FINAL CHECK NEEDED
 Unable to find media.
 
 ### h316
+Read the README.md
+
 ### hp2100
 ### hp3000
 ###  i1401

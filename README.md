@@ -115,14 +115,102 @@ Need tapes get from here. ftp://ftp.informatik.uni-stuttgart.de/pub/cm/lgp30/
 ### nova https://en.wikipedia.org/wiki/Data_General_Nova
 NOVA RDOS Rev 7.50
 
-### pdp1
-### pdp10
-### pdp11
-### pdp15
-### pdp4
-### pdp7
-### pdp8
-### pdp9
+### pdp1 https://en.wikipedia.org/wiki/PDP-1
+Lisp for the PDP-1 (courtesy of the author, L Peter Deutsch).
+
+See lisp_doc.txt
+
+DDT for the PDP-1 (courtesy of Derek Peschel).
+
+See ddt_doc.txt
+
+### pdp4 https://en.wikipedia.org/wiki/PDP-4
+
+DECSys for the PDP-4 (courtesy of Harlan Lefevre).
+
+### pdp7 https://en.wikipedia.org/wiki/PDP-7
+
+SIM8 for the PDP-7
+
+See sim8_doc.txt
+
+### pdp8 https://en.wikipedia.org/wiki/PDP-8
+
+* ESI-X for the PDP-8 (courtesy of the author, David J Waks).
+* NOT INSTALLED Commented out in install_pdp8.sh
+
+* FOCAL69 for the PDP-8 (courtesy of Digital Equipment Corporation).
+* NOT INSTALLED Commented out in install_pdp8.sh
+
+* OS/8 for the PDP-8 (under license provided by Digital Equipment Corporation).
+* NOT INSTALLED Commented out in install_pdp8.sh
+
+TSS/8 for the PDP-8 (courtesy of Digital Equipment Corporation).
+
+* 4k Disk Monitor System for the PDP-8 (courtesy of Digital Equipment Corporation).
+* NOT INSTALLED Commented out in install_pdp8.sh
+
+* CAPS-8 cassette operating system for the PDP-8 (courtesy of Digital Equipment Corporation, prepared by David Gesswein).
+* NOT INSTALLED Commented out in install_pdp8.sh
+
+### pdp9 https://en.wikipedia.org/wiki/PDP-9
+
+Unable to find media.
+
+### pdp10 https://en.wikipedia.org/wiki/PDP-10
+
+Media in http://pdp-10.trailing-edge.com/
+
+NOT INSTALLED 
+
+### pdp11 https://en.wikipedia.org/wiki/PDP-11
+
+* CAPS-11 operating system for a PDP-11 with casette storage (courtesy of Digital Equipment Corporation, prepared by Malcolm Macleod and Lou Ernst)
+Installed in caps11_system
+
+* CAPS-11 BASIC interactive BASIC operating environment for a PDP-11 with casette storage (courtesy of Digital Equipment Corporation, prepared by Malcolm Macleod and Lou Ernst)
+Installed in BASIC_CAPS-11_distribution
+
+* DOS/Batch-11 V10 for the PDP-11.
+Installed in dos11
+
+
+* RT-11 V4 for the PDP-11 (under license provided by Mentec Corporation).
+NOT INSTALLED 
+
+* RT-11 V5.3 for the PDP-11 (under license provided by Mentec Corporation).
+NOT INSTALLED 
+
+* RSTS/E V7 distribution system and RSTS/E prebuilt system for the PDP-11 (under license provided by Mentec Corporation).
+Installed in rstsv7swre
+
+* PDP-11 UNIX V5 with sources (under license provided by Caldera Corporation).
+Installed in uv5swre
+
+* PDP-11 UNIX V6 with sources (under license provided by Caldera Corporation).
+Installed in uv6swre
+
+* PDP-11 UNIX V7 with sources (under license provided by Caldera Corporation).
+Installed in uv7swre
+
+### pdp15 https://en.wikipedia.org/wiki/PDP-15
+
+* FOCAL15 for the PDP-15 (courtesy of Digital Equipment Corporation).
+Installed in focal15
+
+* Advanced Software System, both Keyboard Monitor and Foreground/Background, for the PDP-15 (courtesy of Digital Equipment Corporation).
+Installed in adss15
+
+* DOS-15 for the PDP-15 (courtesy of Digital Equipment Corporation).
+Installed in dos15
+
+* XVM/DOS for the PDP-15 (courtesy of Digital Equipment Corporation).
+Not installed. 
+
+* XVM/RSX for the PDP-15 (courtesy of Digital Equipment Corporation, prepared by Andrew Warkentin).
+Installed in xvmrsx - **This is probably the one want.**
+
+
 ### rtvax1000
 ### s3
 ### scelbi

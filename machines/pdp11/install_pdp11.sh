@@ -22,6 +22,19 @@ echo "cd .."  >> run_pdp11.sh
 chmod 755 run_pdp11.sh
 cd ..
 
+mkdir dos11
+cd dos11
+wget http://simh.trailing-edge.com/kits/dos11.zip
+unzip dos11.zip
+echo "att -e RK dos_rk.dsk" > pdp11.ini
+echo "b RK" >> pdp11.ini
+echo #!/bin/sh > run_pdp11.sh
+echo pdp11 >> run_pdp11.sh
+chmod 755 run_pdp11.sh
+cd ..
+
+
+
 #mkdir rt11swre
 #cd rt11swre
 #wget http://simh.trailing-edge.com/kits/rt11swre.tar.Z

@@ -60,21 +60,45 @@ Mapped ECLIPSE RDOS Rev 7.50
 ### gri
 Unable to find media.
 
-### h316
+### h316 https://en.wikipedia.org/wiki/Honeywell_316
 Read the README.md
 
-### hp2100
-### hp3000
-###  i1401
-### i1620
-### i701
-### i7010
-### i704
-### i7070
-### i7080
-### i7090
-### i7094
-### ibm1130
+### hp2100 https://en.wikipedia.org/wiki/HP_2100
+RTE-6/VM REV 6200
+
+### hp3000 https://en.wikipedia.org/wiki/HP_3000
+HP 3000 MPE-V/R version E.01.00 operating system.
+
+### i1401 https://en.wikipedia.org/wiki/IBM_1401
+Unable to find media.
+
+### i1620 https://en.wikipedia.org/wiki/IBM_1620
+Unable to find media.
+
+### i701 https://en.wikipedia.org/wiki/IBM_701
+Unable to find media.
+
+### i7010 https://en.wikipedia.org/wiki/IBM_700/7000_series#1400_series_architecture_(7010)
+Unable to find media.
+
+### i704 https://en.wikipedia.org/wiki/IBM_704
+Unable to find media.
+
+### i7070 https://en.wikipedia.org/wiki/IBM_7070
+Unable to find media.
+
+### i7080 https://en.wikipedia.org/wiki/IBM_7080
+Unable to find media.
+
+### i7090 https://en.wikipedia.org/wiki/IBM_7090
+Unable to find media.
+
+### i7094 https://en.wikipedia.org/wiki/IBM_7090#IBM_7094
+Unable to find media.
+
+### ibm1130 https://en.wikipedia.org/wiki/IBM_1130
+See readme1130.txt after install.
+
 ### id16
 ### id32
 ### imds-225

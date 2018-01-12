@@ -12,8 +12,8 @@
 wget http://simh.trailing-edge.com/kits/tss8.zip
 unzip tss8.zip
 
-wget http://simh.trailing-edge.com/kits/dms8.zip
-unzip dms8.zip
+#wget http://simh.trailing-edge.com/kits/dms8.zip
+#unzip dms8.zip
 
-wget http://simh.trailing-edge.com/kits/caps8_all.zip
-unzip caps8_all.zip
+#wget http://simh.trailing-edge.com/kits/caps8_all.zip
+#unzip caps8_all.zip

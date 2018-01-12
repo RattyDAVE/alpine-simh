@@ -145,7 +145,7 @@ See sim8_doc.txt
 * OS/8 for the PDP-8 (under license provided by Digital Equipment Corporation).
 * NOT INSTALLED Commented out in install_pdp8.sh
 
-TSS/8 for the PDP-8 (courtesy of Digital Equipment Corporation).
+* TSS/8 for the PDP-8 (courtesy of Digital Equipment Corporation).
 
 * 4k Disk Monitor System for the PDP-8 (courtesy of Digital Equipment Corporation).
 * NOT INSTALLED Commented out in install_pdp8.sh
@@ -209,7 +209,6 @@ Not installed.
 
 * XVM/RSX for the PDP-15 (courtesy of Digital Equipment Corporation, prepared by Andrew Warkentin).
 Installed in xvmrsx - **This is probably the one want.**
-
 
 ### rtvax1000
 ### s3

@@ -106,11 +106,15 @@ See readme1130.txt after install.
 ### isys8020
 ### isys8024
 ### isys8030
-### lgp
+### lgp http://obsolescenceguaranteed.blogspot.co.uk/2016/06/using-simh-lgp-30-emulator.html
+Need tapes get from here. ftp://ftp.informatik.uni-stuttgart.de/pub/cm/lgp30/
+
 ### microvax1
 ### microvax2
 ### microvax3900
-### nova
+### nova https://en.wikipedia.org/wiki/Data_General_Nova
+NOVA RDOS Rev 7.50
+
 ### pdp1
 ### pdp10
 ### pdp11

@@ -15,8 +15,11 @@
 #wget http://simh.trailing-edge.com/kits/rstsv7gen.tar.Z
 #tar xvf rstsv7gen.tar.Z
 
+mkdir rstsv7swre
+cd rstsv7swre
 wget http://simh.trailing-edge.com/kits/rstsv7swre.tar.Z
 tar xvf rstsv7swre.tar.Z
+cd ..
 
 #wget http://simh.trailing-edge.com/kits/uv5swre.zip
 #unzip uv5swre.zip

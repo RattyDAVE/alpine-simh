@@ -78,11 +78,15 @@ cd uv6swre
 wget http://simh.trailing-edge.com/kits/uv6swre.zip
 unzip uv6swre.zip
 echo "set cpu U18" > pdp11.ini
-echo "att rl0 unix0_v6_rk.dsk" >> pdp11.ini
-echo "att rl1 unix1_v6_rk.dsk" >> pdp11.ini
-echo "att rl2 unix2_v6_rk.dsk" >> pdp11.ini
-echo "att rl3 unix3_v6_rk.dsk" >> pdp11.ini
-echo "b rl0" >> pdp11.ini
+echo "set tto 7b" >> pdp11.ini
+echo "set cpu idle" >> pdp11.ini
+echo "att rk0 unix0_v6_rk.dsk" >> pdp11.ini
+echo "att rk1 unix1_v6_rk.dsk" >> pdp11.ini
+echo "att rk2 unix2_v6_rk.dsk" >> pdp11.ini
+echo "att rk3 unix3_v6_rk.dsk" >> pdp11.ini
+echo "echo At the @ prompt type unix" >> pdp11.ini
+echo "echo then login with the root user" >> pdp11.ini
+echo "b rk0" >> pdp11.ini
 echo #!/bin/sh > run_pdp11.sh
 echo pdp11 >> run_pdp11.sh
 chmod 755 run_pdp11.sh
@@ -92,9 +96,13 @@ mkdir uv7swre
 cd uv7swre
 wget http://simh.trailing-edge.com/kits/uv7swre.zip
 unzip uv7swre.zip
-echo "set cpu U18" > pdp11.ini
-echo "att rl0 unix_v7_rl.dsk" >> pdp11.ini
-echo "b rl0" >> pdp11.ini
+echo "set cpu u18" > pdp11.ini
+echo "set tto 7b" >> pdp11.ini
+echo "set cpu idle" >> pdp11.ini
+echo "att rl unix_v7_rl.dsk" >> pdp11.ini
+echo "echo At the @ prompt type boot" >> pdp11.ini
+echo "echo then at the : prompt type rl(0,0)rl2unix" >> pdp11.ini
+echo "b rl" >> pdp11.ini
 echo #!/bin/sh > run_pdp11.sh
 echo pdp11 >> run_pdp11.sh
 chmod 755 run_pdp11.sh

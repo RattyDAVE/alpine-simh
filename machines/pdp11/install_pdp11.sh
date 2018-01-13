@@ -104,6 +104,9 @@ wget http://simh.trailing-edge.com/kits/uv7swre.zip
 unzip uv7swre.zip
 echo "set cpu u18" > pdp11.ini
 echo "set tto 7b" >> pdp11.ini
+echo "set dz 7b >> pdp11.ini
+echo "set dz lines=16 >> pdp11.ini
+echo "attach -am dz 4000 >> pdp11.ini
 echo "set cpu idle" >> pdp11.ini
 echo "att rl unix_v7_rl.dsk" >> pdp11.ini
 echo "echo At the @ prompt type boot" >> pdp11.ini

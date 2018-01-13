@@ -67,7 +67,13 @@ mkdir uv5swre
 cd uv5swre
 wget http://simh.trailing-edge.com/kits/uv5swre.zip
 unzip uv5swre.zip
-echo -e "set cpu U18\natt rl0 unix_v5_rk.dsk\nb rl0" > pdp11.ini
+echo "set cpu U18" > pdp11.ini
+echo "set tto 7b" >> pdp11.ini
+echo "set cpu idle" >> pdp11.ini
+echo "att rk0 unix_v5_rk.dsk" >> pdp11.ini
+echo "echo At the @ prompt type unix" >> pdp11.ini
+echo "echo then login with the root user" >> pdp11.ini
+echo "b rk0" >> pdp11.ini
 echo #!/bin/sh > run_pdp11.sh
 echo pdp11 >> run_pdp11.sh
 chmod 755 run_pdp11.sh

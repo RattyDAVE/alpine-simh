@@ -71,7 +71,7 @@ echo "set cpu U18" > pdp11.ini
 echo "set tto 7b" >> pdp11.ini
 echo "set dz 7b" >> pdp11.ini
 echo "set dz lines=16" >> pdp11.ini
-echo "Telnet to port 4005 for a console" >> pdp11.ini
+echo "echo Telnet to port 4005 for a console" >> pdp11.ini
 echo "attach -am dz 4005" >> pdp11.ini
 echo "set cpu idle" >> pdp11.ini
 echo "att rk0 unix_v5_rk.dsk" >> pdp11.ini
@@ -91,7 +91,7 @@ echo "set cpu U18" > pdp11.ini
 echo "set tto 7b" >> pdp11.ini
 echo "set dz 7b" >> pdp11.ini
 echo "set dz lines=16" >> pdp11.ini
-echo "Telnet to port 4006 for a console" >> pdp11.ini
+echo "echo Telnet to port 4006 for a console" >> pdp11.ini
 echo "attach -am dz 4006" >> pdp11.ini
 echo "set cpu idle" >> pdp11.ini
 echo "att rk0 unix0_v6_rk.dsk" >> pdp11.ini
@@ -114,7 +114,7 @@ echo "set cpu u18" > pdp11.ini
 echo "set tto 7b" >> pdp11.ini
 echo "set dz 7b" >> pdp11.ini
 echo "set dz lines=16" >> pdp11.ini
-echo "Telnet to port 4007 for a console" >> pdp11.ini
+echo "echo Telnet to port 4007 for a console" >> pdp11.ini
 echo "attach -am dz 4007" >> pdp11.ini
 echo "set cpu idle" >> pdp11.ini
 echo "att rl unix_v7_rl.dsk" >> pdp11.ini

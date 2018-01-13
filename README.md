@@ -29,13 +29,13 @@ A README.md may also be included for information on how to use it.
 
 ### 3b2 https://en.wikipedia.org/wiki/3B_series_computers
 See https://loomcom.com/3b2/emulator/
-UNIX(R) System V Release 3.2 AT&T 3B2 Version 2 pre installed and ready to run. 
+UNIX(R) System V Release 3.2 AT&T 3B2 Version 2 pre installed and ready to run.  **WORKING**
 
 ### altair https://en.wikipedia.org/wiki/Altair_8800
 SEE README.md
 
-### altairz80 **WORKING**
-Includeds CPM3 and zork (see README.md in /machines/altairz80) 
+### altairz80
+Includeds CPM3 and zork (see README.md in /machines/altairz80) **WORKING**
 
 ### b5500 https://en.wikipedia.org/wiki/Burroughs_large_systems
 See http://sky-visions.com/burroughs/index.shtml
@@ -61,7 +61,7 @@ Read the README.md
 RTE-6/VM REV 6200 **WORKING**
 
 ### hp3000 https://en.wikipedia.org/wiki/HP_3000
-HP 3000 MPE-V/R version E.01.00 operating system.
+HP 3000 MPE-V/R version E.01.00 operating system. **WORKING**
 
 ### i1401 https://en.wikipedia.org/wiki/IBM_1401
 Unable to find media.
@@ -122,7 +122,7 @@ See ddt_doc.txt
 DECSys for the PDP-4 (courtesy of Harlan Lefevre). **WORKING**
 
 ### pdp7 https://en.wikipedia.org/wiki/PDP-7
-SIM8 for the PDP-7
+SIM8 for the PDP-7 **WORKING**
 See sim8_doc.txt
 
 ### pdp8 https://en.wikipedia.org/wiki/PDP-8

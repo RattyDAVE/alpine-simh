@@ -29,13 +29,13 @@ A README.md may also be included for information on how to use it.
 
 ### 3b2 https://en.wikipedia.org/wiki/3B_series_computers
 See https://loomcom.com/3b2/emulator/
-UNIX(R) System V Release 3.2 AT&T 3B2 Version 2 pre installed and ready to run.
+UNIX(R) System V Release 3.2 AT&T 3B2 Version 2 pre installed and ready to run. 
 
 ### altair https://en.wikipedia.org/wiki/Altair_8800
 SEE README.md
 
-### altairz80
-Includeds CPM3 and zork (see README.md in /machines/altairz80)
+### altairz80 **WORKING**
+Includeds CPM3 and zork (see README.md in /machines/altairz80) 
 
 ### b5500 https://en.wikipedia.org/wiki/Burroughs_large_systems
 See http://sky-visions.com/burroughs/index.shtml
@@ -49,7 +49,7 @@ Install works OK.
 Run does not.
 
 ### eclipse https://en.wikipedia.org/wiki/Data_General_Eclipse
-Mapped ECLIPSE RDOS Rev 7.50
+Mapped ECLIPSE RDOS Rev 7.50 **WORKING**
 
 ### gri
 Unable to find media.
@@ -58,7 +58,7 @@ Unable to find media.
 Read the README.md
 
 ### hp2100 https://en.wikipedia.org/wiki/HP_2100
-RTE-6/VM REV 6200
+RTE-6/VM REV 6200 **WORKING**
 
 ### hp3000 https://en.wikipedia.org/wiki/HP_3000
 HP 3000 MPE-V/R version E.01.00 operating system.
@@ -107,7 +107,7 @@ Need tapes get from here. ftp://ftp.informatik.uni-stuttgart.de/pub/cm/lgp30/
 ### microvax2
 ### microvax3900
 ### nova https://en.wikipedia.org/wiki/Data_General_Nova
-NOVA RDOS Rev 7.50
+NOVA RDOS Rev 7.50 **WORKING**
 
 ### pdp1 https://en.wikipedia.org/wiki/PDP-1
 Lisp for the PDP-1 (courtesy of the author, L Peter Deutsch).
@@ -119,13 +119,10 @@ DDT for the PDP-1 (courtesy of Derek Peschel).
 See ddt_doc.txt
 
 ### pdp4 https://en.wikipedia.org/wiki/PDP-4
-
-DECSys for the PDP-4 (courtesy of Harlan Lefevre).
+DECSys for the PDP-4 (courtesy of Harlan Lefevre). **WORKING**
 
 ### pdp7 https://en.wikipedia.org/wiki/PDP-7
-
 SIM8 for the PDP-7
-
 See sim8_doc.txt
 
 ### pdp8 https://en.wikipedia.org/wiki/PDP-8
@@ -139,7 +136,7 @@ See sim8_doc.txt
 * OS/8 for the PDP-8 (under license provided by Digital Equipment Corporation).
 * NOT INSTALLED Commented out in install_pdp8.sh
 
-* TSS/8 for the PDP-8 (courtesy of Digital Equipment Corporation).
+* TSS/8 for the PDP-8 (courtesy of Digital Equipment Corporation). **WORKING**
 
 * 4k Disk Monitor System for the PDP-8 (courtesy of Digital Equipment Corporation).
 * NOT INSTALLED Commented out in install_pdp8.sh
@@ -160,13 +157,13 @@ NOT INSTALLED
 ### pdp11 https://en.wikipedia.org/wiki/PDP-11
 
 * CAPS-11 operating system for a PDP-11 with casette storage (courtesy of Digital Equipment Corporation, prepared by Malcolm Macleod and Lou Ernst)
-Installed in caps11_system
+Installed in caps11_system **WORKING**
 
 * CAPS-11 BASIC interactive BASIC operating environment for a PDP-11 with casette storage (courtesy of Digital Equipment Corporation, prepared by Malcolm Macleod and Lou Ernst)
-Installed in BASIC_CAPS-11_distribution
+Installed in BASIC_CAPS-11_distribution **WORKING**
 
 * DOS/Batch-11 V10 for the PDP-11.
-Installed in dos11
+Installed in dos11 **WORKING**
 
 * RT-11 V4 for the PDP-11 (under license provided by Mentec Corporation).
 NOT INSTALLED 
@@ -175,27 +172,27 @@ NOT INSTALLED
 NOT INSTALLED 
 
 * RSTS/E V7 distribution system and RSTS/E prebuilt system for the PDP-11 (under license provided by Mentec Corporation).
-Installed in rstsv7swre
+Installed in rstsv7swre **WORKING**
 
 * PDP-11 UNIX V5 with sources (under license provided by Caldera Corporation).
-Installed in uv5swre **Fails when typeing UNIX**
+Installed in uv5swre **WORKING**
 
 * PDP-11 UNIX V6 with sources (under license provided by Caldera Corporation).
-Installed in uv6swre **Fails when typeing UNIX**
+Installed in uv6swre **WORKING**
 
 * PDP-11 UNIX V7 with sources (under license provided by Caldera Corporation).
-Installed in uv7swre**Fails when typeing UNIX**
+Installed in uv7swre **WORKING**
 
 ### pdp15 https://en.wikipedia.org/wiki/PDP-15
 
 * FOCAL15 for the PDP-15 (courtesy of Digital Equipment Corporation).
-Installed in focal15
+Installed in focal15 **WORKING**
 
 * Advanced Software System, both Keyboard Monitor and Foreground/Background, for the PDP-15 (courtesy of Digital Equipment Corporation).
-Installed in adss15
+Installed in adss15 **WORKING**
 
 * DOS-15 for the PDP-15 (courtesy of Digital Equipment Corporation).
-Installed in dos15
+Installed in dos15 **WORKING**
 
 * XVM/DOS for the PDP-15 (courtesy of Digital Equipment Corporation).
 Not installed. 

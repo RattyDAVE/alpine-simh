@@ -5,12 +5,6 @@ PLEASE NOTE THIS IS WORK IN PROGRESS!!!!!!!!
 
 Use https://github.com/RattyDAVE/alpine-simh/issues to send feedback, issues, comments and general chat.
 
-
-
-
-
-
-
 simh built from source.
 
 To run the included machines change directory to the /machine directory and then change to the sub directory for the machine.
@@ -174,7 +168,6 @@ Installed in BASIC_CAPS-11_distribution
 * DOS/Batch-11 V10 for the PDP-11.
 Installed in dos11
 
-
 * RT-11 V4 for the PDP-11 (under license provided by Mentec Corporation).
 NOT INSTALLED 
 
@@ -185,13 +178,13 @@ NOT INSTALLED
 Installed in rstsv7swre
 
 * PDP-11 UNIX V5 with sources (under license provided by Caldera Corporation).
-Installed in uv5swre
+Installed in uv5swre **Fails when typeing UNIX**
 
 * PDP-11 UNIX V6 with sources (under license provided by Caldera Corporation).
-Installed in uv6swre
+Installed in uv6swre **Fails when typeing UNIX**
 
 * PDP-11 UNIX V7 with sources (under license provided by Caldera Corporation).
-Installed in uv7swre
+Installed in uv7swre**Fails when typeing UNIX**
 
 ### pdp15 https://en.wikipedia.org/wiki/PDP-15
 

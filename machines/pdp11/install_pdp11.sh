@@ -35,23 +35,23 @@ cd ..
 
 
 
-#mkdir rt11swre
-#cd rt11swre
-#wget http://simh.trailing-edge.com/kits/rt11swre.tar.Z
-#tar xvf rt11swre.tar.Z
-#cd ..
+mkdir rt11swre
+cd rt11swre
+wget http://simh.trailing-edge.com/kits/rt11swre.tar.Z
+tar xvf rt11swre.tar.Z
+cd ..
 
-#mkdir rtv53swre
-#cd rtv53swre
-#wget http://simh.trailing-edge.com/kits/rtv53swre.tar.Z
-#tar xvf rtv53swre.tar.Z
-#cd ..
+mkdir rtv53swre
+cd rtv53swre
+wget http://simh.trailing-edge.com/kits/rtv53swre.tar.Z
+tar xvf rtv53swre.tar.Z
+cd ..
 
-#mkdir rstsv7gen
-#cd rstsv7gen
-#wget http://simh.trailing-edge.com/kits/rstsv7gen.tar.Z
-#tar xvf rstsv7gen.tar.Z
-#cd ..
+mkdir rstsv7gen
+cd rstsv7gen
+wget http://simh.trailing-edge.com/kits/rstsv7gen.tar.Z
+tar xvf rstsv7gen.tar.Z
+cd ..
 
 mkdir rstsv7swre
 cd rstsv7swre

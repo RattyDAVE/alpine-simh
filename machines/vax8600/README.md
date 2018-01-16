@@ -7,7 +7,7 @@ https://www.hpe.com/emea_europe/en/servers/openvms/licensing.html or **LMFgen**
 At the shell:
 
 ```
-vax vax.ini
+vax8600 vax8600.ini
 ```
 
 Then in the emulator:

@@ -1,3 +1,4 @@
+#Dockerfile-simh.v3.9.0.rc1
 FROM alpine:edge
 
 ENV BUILDPKGS "git gcc libc-dev make vde2-dev libpcap-dev linux-headers readline-dev"

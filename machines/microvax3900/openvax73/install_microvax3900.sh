@@ -4,3 +4,4 @@ curl -L -o OpenVMS_VAX_7.3.img.zip -d "nopassword=1" https://download.cloudatcos
 unzip OpenVMS_VAX_7.3.img.zip
 rm OpenVMS_VAX_7.3.img.zip
 microvax3900 install_microvax3900.ini
+microvax3900 install2_microvax3900.ini

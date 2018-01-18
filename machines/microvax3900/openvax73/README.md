@@ -10,6 +10,14 @@ At the shell:
 install_microvax3900.sh
 ```
 
+
+Users that are setup and passwords.
+```
+SYSTEM SYSTEMpassword
+SYSTEST SYSTESTpassword
+FIELD FIELDpassword
+```
+
 Then once installed you can do the post installation tasks. You will need to set TCPIP to your requirements. I suggest in Client, FTP and TELNET.
 
 

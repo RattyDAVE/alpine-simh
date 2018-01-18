@@ -12,7 +12,7 @@ RUN apk --update --no-cache add $RUNPKGS && rm -rf /var/cache/apk/* && \
     mkdir /usr/src && cd /usr/src && \
     git clone git://github.com/simh/simh.git  && \
     cd simh && \
-    #sed -e "s/\$(error Retry your build without specifying USE_NETWORK=1)/# SUPRESSED /g" makefile > makefile2 && \
+    sed -e "s/\$(error Retry your build without specifying USE_NETWORK=1)/# SUPRESSED /g" makefile > makefile2 && \
     make LIBPATH=/usr/lib INCPATH=/usr/include USE_NETWORK=1 -j $(nproc) -f makefile2 all && \
     #make LIBPATH=/usr/lib INCPATH=/usr/include -j $(nproc) all && \
 \

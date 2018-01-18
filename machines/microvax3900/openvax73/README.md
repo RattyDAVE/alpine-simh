@@ -7,81 +7,49 @@ https://www.hpe.com/emea_europe/en/servers/openvms/licensing.html or **LMFgen**
 At the shell:
 
 ```
-vax8600 vax8600.ini
+install_microvax3900.sh
 ```
 
-Then in the emulator:
+Then once installed you can do the post installation tasks. You will need to set TCPIP to your requirements. I suggest in Client, FTP and TELNET.
+
 
 ```
-boot dua3
-(Enter DATE) 09-jan-2018 12:00
-(YES for all devices available)
-backup dua3:vms073.b/save_set dua0:
-(At the next backup prompt press CTRL-E to go back to the simh prompt)
+set proc/priv=all
+mount/system dua1 data1
+mount/system dua2 data2
 
-boot cpu
-set boot dua0
-boot
-(Enter DATE)
-(If you are just going to run system then you can leave the system disk name as default. Otherwise give a meaningful name)
-DUA2
-Y (OpenVMS media ready)
-Y (OpenVMS library)
-Y (OpenVMS optional)
-Y (MSGHLP)
-(Enter for default location)
-N (OpenVMS Management Station)
-N (DECwindows base support)
-N (DECnet-Plus)
-Y (DECnet Phase IV)
-Y (Confirmation to install the 4 options)
-(Wait! - Really it takes a long time and it looks like it is doing nothing. Go watch a film.)
-```
+set def sys$system
+edit modparams.dat
 
-MORE TO DO HERE!
+#Put the following lines. This is needed for TCP/IP
+ADD_GBLPAGES=10000
+ADD_GBLSECTIONS=100
+ADD_NPAGEDYN=800000
+ADD_NPAGEVIR=800000
+MIN_SPTREQ=6000
+#CTRL-Z to save and exit.
 
-Last part!
-
-
-To install the PAK file (Licenses). When installing and you get to the stage.
-
-```
-* Do you want to register any Product Authorization Keys? (Y/N):
-```
-
-Press **N** 
-
-The install will then Quit.
-
-Enter the following:
-
-```
 SET TERMINAL/INQUIRE
 SET TERMINAL/NOWRAP
 CREATE PAKS.COM
-```
-
-Cut and paste from the PAK file, then press CTRL-Z to save.
-
-Then enter the following to run.
-
-```
+#Cut and paste from the PAK file, then press CTRL-Z to save.
+#Then enter the following to run.
 @PAKS.COM
+
+
+set def dua3:[tcpip_vax051.kit]
+@sys$manager:tcpip$config
+
+edit sys$manager:systartup_vms.com
+
+#Put the following 3 lines in at the end near the the EXIT.
+mount/system dua1 data1
+mount/system dua2 data2
+@sys$startup:tcpip$startup
+#CTRL-Z to save and exit.
+
+@SYS$UPDATE:LIBDECOMP.COM
+
+set def sys$update
+@autogen getdata shutdown nofeedback
 ```
-
-Networking
-
-```
-$ LICENSE REGISTER UCX -
-/ISSUER=VLF -
-/AUTHORIZATION=VLF-HOBBYIST-0000-001278 -
-/PRODUCER=DEC -
-/UNITS=0 -
-/ACTIVITY=CONSTANT=100 -
-/OPTIONS=(MOD_UNITS) -
-/CHECKSUM=2-LPDD-AAFN-MHED-AOJI
-$ LICENSE LOAD UCX
-```
-
-
-

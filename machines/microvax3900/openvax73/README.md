@@ -45,6 +45,7 @@ CREATE PAKS.COM
 @PAKS.COM
 
 
+mount/over=id dua3:
 set def dua3:[tcpip_vax051.kit]
 @sys$manager:tcpip$config
 

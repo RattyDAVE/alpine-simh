@@ -106,6 +106,9 @@ Need tapes get from here. ftp://ftp.informatik.uni-stuttgart.de/pub/cm/lgp30/
 ### microvax1
 ### microvax2
 ### microvax3900
+Ready to run OpenVMS VAX 7.3 ** WORKING **
+See README.md
+
 ### nova https://en.wikipedia.org/wiki/Data_General_Nova
 NOVA RDOS Rev 7.50 **WORKING**
 
@@ -165,12 +168,6 @@ Installed in BASIC_CAPS-11_distribution **WORKING**
 * DOS/Batch-11 V10 for the PDP-11.
 Installed in dos11 **WORKING**
 
-* RT-11 V4 for the PDP-11 (under license provided by Mentec Corporation).
-NOT INSTALLED 
-
-* RT-11 V5.3 for the PDP-11 (under license provided by Mentec Corporation).
-NOT INSTALLED 
-
 * RSTS/E V7 distribution system and RSTS/E prebuilt system for the PDP-11 (under license provided by Mentec Corporation).
 Installed in rstsv7swre **WORKING**
 
@@ -209,16 +206,9 @@ Installed in xvmrsx - **This is probably the one want.**
 ### swtp6800mp-a2
 ### tx-0
 ### vax https://en.wikipedia.org/wiki/VAX
-
-Ready to run OpenVMS VAX 7.3
-
-See README.md
-
-FINAL CHECK NEEDED
+* NetBSD 7.1.1 http://www.netbsd.org/ **WORKING**
 
 ### vax730
 ### vax750
 ### vax780
 ### vax8600
-
-FINAL CHECK NEEDED

@@ -10,8 +10,7 @@ At the shell:
 install_microvax3900.sh
 ```
 
-
-Users that are setup and passwords.
+The install will do 99% includinf setting up the users.
 ```
 SYSTEM SYSTEMpassword
 SYSTEST SYSTESTpassword

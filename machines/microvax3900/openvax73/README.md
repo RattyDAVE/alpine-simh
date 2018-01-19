@@ -43,11 +43,6 @@ CREATE PAKS.COM
 #Then enter the following to run.
 @PAKS.COM
 
-
-mount/over=id dua3:
-set def dua3:[tcpip_vax051.kit]
-@sys$manager:tcpip$config
-
 edit sys$manager:systartup_vms.com
 
 #Put the following 3 lines in at the end near the the EXIT.
@@ -55,6 +50,18 @@ mount/system dua1 data1
 mount/system dua2 data2
 @sys$startup:tcpip$startup
 #CTRL-Z to save and exit.
+
+r sys$system:sysgen
+SYSGEN> SET INTSTKPAGES 20
+SYSGEN> WRITE CURRENT
+SYSGEN> EXIT
+@sys$system:shutdown
+
+#Login again
+set proc/priv=all
+mount/over=id dua3:
+set def dua3:[tcpip_vax051.kit]
+@sys$manager:tcpip$config
 
 @SYS$UPDATE:LIBDECOMP.COM
 

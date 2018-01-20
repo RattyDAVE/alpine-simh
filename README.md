@@ -1,11 +1,13 @@
 # alpine-simh
 
-
 PLEASE NOTE THIS IS WORK IN PROGRESS!!!!!!!! 
 
 Use https://github.com/RattyDAVE/alpine-simh/issues to send feedback, issues, comments and general chat.
 
 simh built from source.
+
+rattydave/alpine-simh:core   - The latest simh built from source (at build time).
+rattydave/alpine-simh:latest - as rattydave/alpine-simh:latest:core but witht he scripts to install the machines too.
 
 To run the included machines change directory to the /machine directory and then change to the sub directory for the machine.
 
@@ -50,6 +52,9 @@ Run does not.
 
 ### eclipse https://en.wikipedia.org/wiki/Data_General_Eclipse
 Mapped ECLIPSE RDOS Rev 7.50 **WORKING**
+
+### nova https://en.wikipedia.org/wiki/Data_General_Nova
+NOVA RDOS Rev 7.50 **WORKING**
 
 ### gri
 Unable to find media.
@@ -103,14 +108,7 @@ See readme1130.txt after install.
 ### lgp http://obsolescenceguaranteed.blogspot.co.uk/2016/06/using-simh-lgp-30-emulator.html
 Need tapes get from here. ftp://ftp.informatik.uni-stuttgart.de/pub/cm/lgp30/
 
-### microvax1
-### microvax2
-### microvax3900
-Ready to run OpenVMS VAX 7.3 ** WORKING **
-See README.md
-
-### nova https://en.wikipedia.org/wiki/Data_General_Nova
-NOVA RDOS Rev 7.50 **WORKING**
+#### DEC
 
 ### pdp1 https://en.wikipedia.org/wiki/PDP-1
 Lisp for the PDP-1 (courtesy of the author, L Peter Deutsch).
@@ -197,7 +195,29 @@ Not installed.
 * XVM/RSX for the PDP-15 (courtesy of Digital Equipment Corporation, prepared by Andrew Warkentin).
 Installed in xvmrsx - **This is probably the one want.**
 
+### vax https://en.wikipedia.org/wiki/VAX
+* NetBSD 7.1.1 http://www.netbsd.org/ **WORKING**
+
+
 ### rtvax1000
+
+### vax730
+### vax750
+### vax780
+### vax8600
+
+### microvax1
+### microvax2
+### microvax3900
+Ready to run OpenVMS VAX 7.3 ** WORKING **
+See README.md
+
+
+
+
+
+
+
 ### s3
 ### scelbi
 ### sds
@@ -205,10 +225,3 @@ Installed in xvmrsx - **This is probably the one want.**
 ### swtp6800mp-a
 ### swtp6800mp-a2
 ### tx-0
-### vax https://en.wikipedia.org/wiki/VAX
-* NetBSD 7.1.1 http://www.netbsd.org/ **WORKING**
-
-### vax730
-### vax750
-### vax780
-### vax8600

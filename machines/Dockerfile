@@ -3,4 +3,4 @@
 FROM rattydave/alpine-simh:core
     
 COPY / /machines/
-RUN  find /machines -name "*.sh" -exec chmod 755 {} \; 
+RUN  rm /machines/Dockerfile && find /machines -name "*.sh" -exec chmod 755 {} \; 

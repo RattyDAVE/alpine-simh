@@ -5,10 +5,9 @@ FROM alpine:edge
 ENV BUILDPKGS "git gcc libc-dev make vde2-dev libpcap-dev linux-headers readline-dev"
 ENV RUNPKGS "net-tools vde2 vde2-libs libpcap nano readline bash curl wget unzip"
 
-COPY /machines/ /machines/
-
 RUN apk --update --no-cache add $RUNPKGS && rm -rf /var/cache/apk/* && \
     apk --no-cache add --virtual build-dependencies $BUILDPKGS && \
+\
     mkdir /usr/src && cd /usr/src && \
     git clone git://github.com/simh/simh.git  && \
     cd simh && \
@@ -18,8 +17,11 @@ RUN apk --update --no-cache add $RUNPKGS && rm -rf /var/cache/apk/* && \
 \
     apk del build-dependencies && \
     rm -rf /var/cache/apk/* && \
-    find /machines -name "*.sh" -exec chmod 755 {} \; 
+    mkdir /machines
     
+COPY /machines/ /machines/
+RUN  find /machines -name "*.sh" -exec chmod 755 {} \; 
+  
 ENV PATH /usr/src/simh/BIN:$PATH
 
 EXPOSE 2323-2326

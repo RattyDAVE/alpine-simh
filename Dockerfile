@@ -18,9 +18,6 @@ RUN apk --update --no-cache add $RUNPKGS && rm -rf /var/cache/apk/* && \
     apk del build-dependencies && \
     rm -rf /var/cache/apk/* && \
     mkdir /machines
-    
-COPY /machines/ /machines/
-RUN  find /machines -name "*.sh" -exec chmod 755 {} \; 
   
 ENV PATH /usr/src/simh/BIN:$PATH
 

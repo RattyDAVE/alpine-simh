@@ -108,7 +108,7 @@ See readme1130.txt after install.
 ### lgp http://obsolescenceguaranteed.blogspot.co.uk/2016/06/using-simh-lgp-30-emulator.html
 Need tapes get from here. ftp://ftp.informatik.uni-stuttgart.de/pub/cm/lgp30/
 
-#### DEC
+## DEC
 
 ### pdp1 https://en.wikipedia.org/wiki/PDP-1
 Lisp for the PDP-1 (courtesy of the author, L Peter Deutsch).

@@ -1,13 +1,24 @@
 # alpine-simh
 
-PLEASE NOTE THIS IS WORK IN PROGRESS!!!!!!!! 
+PLEASE NOTE THIS IS WORK IN PROGRESS. Suggestions and scripts for missing machines, disk or tape scripts are very welcome!
 
 Use https://github.com/RattyDAVE/alpine-simh/issues to send feedback, issues, comments and general chat.
 
-simh built from source.
+# Part of the retro mini and mainframe series.
+
+* https://hub.docker.com/r//rattydave/docker-ubuntu-hercules-vm370 - vm370 Emulator with Robert O'Hara's Six Pack
+* https://hub.docker.com/r/rattydave/docker-ubuntu-hercules-mvs - Fully running MVS 3.8j Tur(n)key 4- System. IBM Mainframe.
+* https://hub.docker.com/r/rattydave/alpine-simh/ - AT&T, Data General, DEC PDPs and VAXen, Honeywell, HP and others. All with OSs. 
+
+
+# Usage
+
+docker run --name mini -it rattydave/alpine-simh
+
+simh built from the latest source.
 
 rattydave/alpine-simh:core   - The latest simh built from source (at build time).
-rattydave/alpine-simh:latest - as rattydave/alpine-simh:latest:core but witht he scripts to install the machines too.
+rattydave/alpine-simh:latest - as rattydave/alpine-simh:core but witht he scripts to install the machines too.
 
 To run the included machines change directory to the /machine directory and then change to the sub directory for the machine.
 
@@ -64,7 +75,7 @@ NOVA RDOS Rev 7.50 **WORKING**
 ### gri
 Unable to find media.
 
-## Honewell
+## Honeywell
 ### h316 https://en.wikipedia.org/wiki/Honeywell_316
 Read the README.md
 

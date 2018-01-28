@@ -39,11 +39,11 @@ chmod 755 run_pdp15.sh
 cd ..
 
 
-#mkdir xvmdos
-#cd xvmdos
-#wget http://simh.trailing-edge.com/kits/xvmdos.zip
-#unzip xvmdos.zip
-#cd ..
+mkdir xvmdos
+cd xvmdos
+wget http://simh.trailing-edge.com/kits/xvmdos.zip
+unzip xvmdos.zip
+cd ..
 
 mkdir xvmrsx
 cd xvmrsx

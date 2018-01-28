@@ -40,6 +40,35 @@ cd /machines/3b2
 
 A README.md may also be included for information on how to use it. 
 
+Machine          |Directory   |OS             |Fully Working |
+| ---            | ---        | ---           | ---          |
+AT&T 3B2         |3b2         |UNIX System V  |[x]
+MITS Altair 8080 |altair      |Various        |[x]
+MITS Altair Z80  |altairz80   |Various        |[x]
+BLS B550         |b5500       |               |[ ]
+CDC1700          |cdc1700     |               |[ ]
+DG Eclipse       |eclipse     |RDOS 7.50      |[x]
+DG Nova          |nova        |RDOS 7.50      |[x]
+HP2100           |hp2100      |RTE-6/VM       |[x]
+HP3000           |hp3000      |MPE-V/R        |[x]
+DEC PDP1         |pdp1        |LISP           |[ ]
+DEC PDP1         |pdp1        |DDT            |[ ]
+DEC PDP4         |pdp4        |DECsys         |[x]
+DEC PDP7         |pdp7        |SIM8           |[x]
+DEC PDP8         |pdp8        |TSS/8          |[x]
+DEC PDP11        |pdp11       |CAPS11         |[x]
+DEC PDP11        |pdp11       |DOS11          |[x]
+DEC PDP11        |pdp11       |RSTS/E V7      |[x]
+DEC PDP11        |pdp11       |UNIX V5        |[x]
+DEC PDP11        |pdp11       |UNIX V6        |[x]
+DEC PDP11        |pdp11       |UNIX V7        |[x]
+DEC PDP15        |pdp15       |FOCAL15        |[x]
+DEC PDP15        |pdp15       |ASS            |[x]
+DEC PDP15        |pdp15       |DOS15          |[x]
+DEC PDP15        |pdp15       |XVM/RSX        |[x]
+DEC Microvax3900 |microvax3900|OpenVMS VAX 7.3|[x]
+
+
 ## AT&T
 ### 3b2 https://en.wikipedia.org/wiki/3B_series_computers
 See https://loomcom.com/3b2/emulator/

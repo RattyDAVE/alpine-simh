@@ -7,7 +7,7 @@ tar xvf esixswre.tar.Z
 cd ..
 
 mkdir foclswre
-cd foclswrecd 
+cd foclswre 
 wget http://simh.trailing-edge.com/kits/foclswre.tar.Z
 tar xvf foclswre.tar.Z
 cd ..

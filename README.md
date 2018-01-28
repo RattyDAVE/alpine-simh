@@ -171,21 +171,21 @@ SIM8 for the PDP-7 **WORKING**
 See sim8_doc.txt
 ### pdp8 https://en.wikipedia.org/wiki/PDP-8
 * ESI-X for the PDP-8 (courtesy of the author, David J Waks).
-* NOT INSTALLED Commented out in install_pdp8.sh
+  * NOT INSTALLED Commented out in install_pdp8.sh
 
 * FOCAL69 for the PDP-8 (courtesy of Digital Equipment Corporation).
-* NOT INSTALLED Commented out in install_pdp8.sh
+  * NOT INSTALLED Commented out in install_pdp8.sh
 
 * OS/8 for the PDP-8 (under license provided by Digital Equipment Corporation).
-* NOT INSTALLED Commented out in install_pdp8.sh
+  * NOT INSTALLED Commented out in install_pdp8.sh
 
 * TSS/8 for the PDP-8 (courtesy of Digital Equipment Corporation). **WORKING**
 
 * 4k Disk Monitor System for the PDP-8 (courtesy of Digital Equipment Corporation).
-* NOT INSTALLED Commented out in install_pdp8.sh
+  * NOT INSTALLED Commented out in install_pdp8.sh
 
 * CAPS-8 cassette operating system for the PDP-8 (courtesy of Digital Equipment Corporation, prepared by David Gesswein).
-* NOT INSTALLED Commented out in install_pdp8.sh
+  * NOT INSTALLED Commented out in install_pdp8.sh
 
 ### pdp9 https://en.wikipedia.org/wiki/PDP-9
 Unable to find media.
@@ -195,27 +195,26 @@ Media in http://pdp-10.trailing-edge.com/
 NOT INSTALLED 
 ### pdp11 https://en.wikipedia.org/wiki/PDP-11
 * CAPS-11 operating system for a PDP-11 with casette storage (courtesy of Digital Equipment Corporation, prepared by Malcolm Macleod and Lou Ernst)
-
-Installed in caps11_system **WORKING**
+  * Installed in caps11_system **WORKING**
 
 * CAPS-11 BASIC interactive BASIC operating environment for a PDP-11 with casette storage (courtesy of Digital Equipment Corporation, prepared by Malcolm Macleod and Lou Ernst)
-Installed in BASIC_CAPS-11_distribution **WORKING**
+  * Installed in BASIC_CAPS-11_distribution **WORKING**
 
 * DOS/Batch-11 V10 for the PDP-11.
-Installed in dos11 **WORKING**
+  * Installed in dos11 **WORKING**
 
 * RSTS/E V7 distribution system and RSTS/E prebuilt system for the PDP-11 (under license provided by Mentec Corporation).
-Installed in rstsv7swre **WORKING**
+  * Installed in rstsv7swre **WORKING**
 
 * PDP-11 UNIX V5 with sources (under license provided by Caldera Corporation).
-Installed in uv5swre **WORKING**
+  * Installed in uv5swre **WORKING**
 
 
 * PDP-11 UNIX V6 with sources (under license provided by Caldera Corporation).
-Installed in uv6swre **WORKING**
+  * Installed in uv6swre **WORKING**
 
 * PDP-11 UNIX V7 with sources (under license provided by Caldera Corporation).
-Installed in uv7swre **WORKING**
+  * Installed in uv7swre **WORKING**
 
 ### pdp15 https://en.wikipedia.org/wiki/PDP-15
 * FOCAL15 for the PDP-15 (courtesy of Digital Equipment Corporation).

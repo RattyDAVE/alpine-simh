@@ -48,7 +48,7 @@ AT&T 3B2         |3b2         |UNIX System V  |1984|[x]
 MITS Altair 8080 |altair      |Various        |1975|[x]
 MITS Altair Z80  |altairz80   |Various        |1975|[x]
 BLS B5500        |b5500       |               |1964|[ ]
-CDC1700          |cdc1700     |               |1966|[ ]
+CDC1700          |cdc1700     |               |1966|[x]
 DG Eclipse       |eclipse     |RDOS 7.50      |1974|[x]
 DG Nova          |nova        |RDOS 7.50      |1969|[x]
 HP2100           |hp2100      |RTE-6/VM       |1966|[x]
@@ -93,8 +93,7 @@ Unable to find media.
 
 ## Control Data Corporation
 ### cdc1700 https://en.wikipedia.org/wiki/CDC_1700
-Install works OK.
-Run does not.
+**WORKING** See instructions. https://github.com/simh/simh/blob/master/CDC1700/CDC1700-MSOS.txt
 
 ## Data General
 ### eclipse https://en.wikipedia.org/wiki/Data_General_Eclipse

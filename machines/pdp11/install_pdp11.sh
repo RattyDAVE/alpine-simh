@@ -39,6 +39,10 @@ mkdir rt11swre
 cd rt11swre
 wget http://simh.trailing-edge.com/kits/rt11swre.tar.Z
 tar xvf rt11swre.tar.Z
+echo -e "set cpu U18\natt rl0 Disks/rtv4_rk.dsk\nb rl0" > pdp11.ini
+echo #!/bin/sh > run_pdp11.sh
+echo pdp11 >> run_pdp11.sh
+chmod 755 run_pdp11.sh
 cd ..
 
 mkdir rtv53swre
@@ -46,6 +50,7 @@ cd rtv53swre
 wget http://simh.trailing-edge.com/kits/rtv53swre.tar.Z
 tar xvf rtv53swre.tar.Z
 cd ..
+
 
 mkdir rstsv7gen
 cd rstsv7gen

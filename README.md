@@ -48,7 +48,7 @@ A README.md may also be included for information on how to use it.
 Machine          |Directory   |OS             |H/W Year|S/W Year|Fully Working |
 | ---            | ---        | ---           | ---    | ---    |---          |
 AT&T 3B2         |3b2         |UNIX System V Release 3.2  |1984|1988|[x]
-MITS Altair 8080 |altair      |Various         |1975|Various|[x]
+MITS Altair 8080 |altair      |Various        |1975|Various|[x]
 MITS Altair Z80  |altairz80   |CP/M 3         |1975|1983|[x]
 BLS B5500        |b5500       |               |1964||[ ]
 CDC1700          |cdc1700     |               |1966||[x]
@@ -56,6 +56,12 @@ DG Eclipse       |eclipse     |RDOS 7.50      |1974|1986|[x]
 DG Nova          |nova        |RDOS 7.50      |1969|1986|[x]
 IBM 1130         |ibm1130     |               |1965||[X]
 Honeywell 316    |h316        |               |1969||[x]
+HP2100           |hp2100      |DOS            |1966||[x]
+HP2100           |hp2100      |DOS-M          |1966||[x]
+HP2100           |hp2100      |DOS-III        |1966||[x]
+HP2100           |hp2100      |MTS            |1966||[x]
+HP2100           |hp2100      |RTE            |1966||[x]
+HP2100           |hp2100      |RTE-II         |1966||[x]
 HP2100           |hp2100      |RTE-6/VM       |1966|1981|[x]
 HP3000           |hp3000      |MPE-V/R        |1972|1985?|[x]
 DEC PDP1         |pdp1        |LISP           |1960||[ ]
@@ -117,7 +123,13 @@ Read the README.md
 
 ## Hewlett-Packard
 ### hp2100 https://en.wikipedia.org/wiki/HP_2100
-RTE-6/VM REV 6200 **WORKING**
+DOS **WORKING** (under license provided by HPE Corporation).
+DOS-M **WORKING** (under license provided by HPE Corporation).
+DOS-III **WORKING** (under license provided by HPE Corporation).
+MTS **WORKING** (under license provided by HPE Corporation).
+RTE **WORKING** (under license provided by HPE Corporation).
+RTE-II **WORKING** (under license provided by HPE Corporation).
+RTE-6/VM REV 6200 **WORKING** (under license provided by HPE Corporation).
 ### hp3000 https://en.wikipedia.org/wiki/HP_3000
 HP 3000 MPE-V/R version E.01.00 operating system. **WORKING**
 

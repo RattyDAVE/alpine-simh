@@ -123,13 +123,13 @@ Read the README.md
 
 ## Hewlett-Packard
 ### hp2100 https://en.wikipedia.org/wiki/HP_2100
-DOS **WORKING** (under license provided by HPE Corporation).
-DOS-M **WORKING** (under license provided by HPE Corporation).
-DOS-III **WORKING** (under license provided by HPE Corporation).
-MTS **WORKING** (under license provided by HPE Corporation).
-RTE **WORKING** (under license provided by HPE Corporation).
-RTE-II **WORKING** (under license provided by HPE Corporation).
-RTE-6/VM REV 6200 **WORKING** (under license provided by HPE Corporation).
+* DOS **WORKING** (under license provided by HPE Corporation).
+* DOS-M **WORKING** (under license provided by HPE Corporation).
+* DOS-III **WORKING** (under license provided by HPE Corporation).
+* MTS **WORKING** (under license provided by HPE Corporation).
+* RTE **WORKING** (under license provided by HPE Corporation).
+* RTE-II **WORKING** (under license provided by HPE Corporation).
+* RTE-6/VM REV 6200 **WORKING** (under license provided by HPE Corporation).
 ### hp3000 https://en.wikipedia.org/wiki/HP_3000
 HP 3000 MPE-V/R version E.01.00 operating system. **WORKING**
 

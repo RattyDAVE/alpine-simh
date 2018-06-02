@@ -62,3 +62,30 @@ echo #!/bin/sh > run_hp2100.sh
 echo "hp2100 dos.ini" >> run_hp2100.sh
 chmod 755 run_hp2100.sh
 cd ..
+
+mkdir hp2000ASK
+cd hp2000ASK
+wget http://simh.trailing-edge.com/kits/HP-2000-Access-software-kit.zip
+unzip HP-2000-Access-software-kit.zip
+echo #!/bin/sh > run_hp2100.sh
+echo "hp2100 tsb-auto.sim" >> run_hp2100.sh
+chmod 755 run_hp2100.sh
+cd ..
+
+mkdir hp2000eSK
+cd hp2000eSK
+wget http://simh.trailing-edge.com/kits/HP-2000E-software-kit.zip
+unzip HP-2000-Access-software-kit.zip
+echo #!/bin/sh > run_hp2100.sh
+echo "hp2100 tsb-auto.sim" >> run_hp2100.sh
+chmod 755 run_hp2100.sh
+cd ..
+
+mkdir hp2000fSK
+cd hp2000fSK
+wget http://simh.trailing-edge.com/kits/HP-2000F-software-kit.zip
+unzip HP-2000-Access-software-kit.zip
+echo #!/bin/sh > run_hp2100.sh
+echo "hp2100 tsb-auto.sim" >> run_hp2100.sh
+chmod 755 run_hp2100.sh
+cd ..

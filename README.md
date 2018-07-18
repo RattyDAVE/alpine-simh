@@ -45,8 +45,8 @@ cd /machines/3b2
 
 A README.md may also be included for information on how to use it. 
 
-Machine          |Directory   |OS             |H/W Year|S/W Year|Fully Working |
-| ---            | ---        | ---           | ---    | ---    |---          |
+Machine          |Directory   |OS             |H/W Year|S/W Year|Fully Working
+  ---            | ---        | ---           | ---    | ---    |---          
 AT&T 3B2         |3b2         |UNIX System V Release 3.2  |1984|1988|[x]
 MITS Altair 8080 |altair      |Various        |1975|Various|[x]
 MITS Altair Z80  |altairz80   |CP/M 3         |1975|1983|[x]

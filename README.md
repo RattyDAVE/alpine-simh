@@ -45,45 +45,45 @@ cd /machines/3b2
 
 A README.md may also be included for information on how to use it. 
 
-Machine          |Directory   |OS             |H/W Year|S/W Year|Fully Working
-  ---            | ---        | ---           | ---    | ---    |---          
-AT&T 3B2         |3b2         |UNIX System V Release 3.2  |1984|1988|[x]
-MITS Altair 8080 |altair      |Various        |1975|Various|[x]
-MITS Altair Z80  |altairz80   |CP/M 3         |1975|1983|[x]
-BLS B5500        |b5500       |               |1964||[ ]
-CDC1700          |cdc1700     |               |1966||[x]
-DG Eclipse       |eclipse     |RDOS 7.50      |1974|1986|[x]
-DG Nova          |nova        |RDOS 7.50      |1969|1986|[x]
-IBM 1130         |ibm1130     |               |1965||[X]
-Honeywell 316    |h316        |               |1969||[x]
-HP2000           |hp2100      |Time-Shared BASIC operating system|1966|1975|[x]
-HP2000E          |hp2100      |Time-Shared BASIC operating system|1966|1975|[x]
-HP2000F          |hp2100      |Time-Shared BASIC operating system|1966|1975|[x]
-HP2100           |hp2100      |DOS            |1966||[x]
-HP2100           |hp2100      |DOS-M          |1966||[x]
-HP2100           |hp2100      |DOS-III        |1966||[x]
-HP2100           |hp2100      |MTS            |1966||[x]
-HP2100           |hp2100      |RTE            |1966||[x]
-HP2100           |hp2100      |RTE-II         |1966||[x]
-HP2100           |hp2100      |RTE-6/VM       |1966|1981|[x]
-HP3000           |hp3000      |MPE-V/R        |1972|1985?|[x]
-DEC PDP1         |pdp1        |LISP           |1960||[ ]
-DEC PDP1         |pdp1        |DDT            |1960|1962|[ ]
-DEC PDP4         |pdp4        |DECsys         |1962||[x]
-DEC PDP7         |pdp7        |SIM8           |1964||[x]
-DEC PDP8         |pdp8        |TSS/8          |1966||[x]
-DEC PDP11        |pdp11       |CAPS11         |1969||[x]
-DEC PDP11        |pdp11       |RT-11SJ V04.00C|1969|1970|[x]
-DEC PDP11        |pdp11       |DOS11          |1969||[x]
-DEC PDP11        |pdp11       |RSTS/E V7      |1969||[x]
-DEC PDP11        |pdp11       |UNIX V5        |1969||[x]
-DEC PDP11        |pdp11       |UNIX V6        |1969||[x]
-DEC PDP11        |pdp11       |UNIX V7        |1969||[x]
-DEC PDP15        |pdp15       |FOCAL15        |1970||[x]
-DEC PDP15        |pdp15       |ASS            |1970||[x]
-DEC PDP15        |pdp15       |DOS15          |1970||[x]
-DEC PDP15        |pdp15       |XVM/RSX        |1970||[x]
-DEC Microvax3900 |microvax3900|OpenVMS VAX 7.3|1989||[x]
+Machine                                                            |Directory   |OS                                |H/W Year|S/W Year|Fully Working|Notes
+  ---                                                              | ---        | ---                              | ---    | ---    |---          
+[AT&T 3B2](https://en.wikipedia.org/wiki/3B_series_computers)      |3b2         |UNIX System V Release 3.2         |1984|1988|Y|
+[MITS Altair 8080](https://en.wikipedia.org/wiki/Altair_8800)      |altair      |Various                           |1975|Various|Y|See README.md
+MITS Altair Z80                                                    |altairz80   |CP/M 3                            |1975|1983|Y|See README.md
+[BLS B5500](https://en.wikipedia.org/wiki/Burroughs_large_systems) |b5500       |                                  |1964|||
+[CDC1700](https://en.wikipedia.org/wiki/CDC_1700)                  |cdc1700     |                                  |1966||Y|See [Notes](https://github.com/simh/simh/blob/master/CDC1700/CDC1700-MSOS.txt)
+[DG Eclipse](https://en.wikipedia.org/wiki/Data_General_Eclipse)   |eclipse     |RDOS 7.50                         |1974|1986|Y|
+[DG Nova](https://en.wikipedia.org/wiki/Data_General_Nova)         |nova        |RDOS 7.50                         |1969|1986|Y|
+[IBM 1130]()                                                       |ibm1130     |                                  |1965||Y|
+[Honeywell 316](https://en.wikipedia.org/wiki/Honeywell_316)       |h316        |                                  |1969||Y|See README.md
+[HP2000](https://en.wikipedia.org/wiki/HP_2100)                    |hp2100      |Time-Shared BASIC operating system|1966|1975|Y|
+[HP2000E](https://en.wikipedia.org/wiki/HP_2100)                   |hp2100      |Time-Shared BASIC operating system|1966|1975|Y|
+[HP2000F](https://en.wikipedia.org/wiki/HP_2100)                   |hp2100      |Time-Shared BASIC operating system|1966|1975|Y|
+[HP2100](https://en.wikipedia.org/wiki/HP_2100)                    |hp2100      |DOS                               |1966||Y|
+[HP2100](https://en.wikipedia.org/wiki/HP_2100)                    |hp2100      |DOS-M                             |1966||Y|
+[HP2100](https://en.wikipedia.org/wiki/HP_2100)                    |hp2100      |DOS-III                           |1966||Y|
+[HP2100](https://en.wikipedia.org/wiki/HP_2100)                    |hp2100      |MTS                               |1966||Y|
+[HP2100](https://en.wikipedia.org/wiki/HP_2100)                    |hp2100      |RTE                               |1966||Y|
+[HP2100](https://en.wikipedia.org/wiki/HP_2100)                    |hp2100      |RTE-II                            |1966||Y|
+[HP2100](https://en.wikipedia.org/wiki/HP_2100)                    |hp2100      |RTE-6/VM                          |1966|1981|Y|
+[HP3000](https://en.wikipedia.org/wiki/HP_2000)                    |hp3000      |MPE-V/R                           |1972|1985?|Y|
+[DEC PDP1](https://en.wikipedia.org/wiki/PDP-1)                    |pdp1        |LISP                              |1960||N|See lisp_doc.txt
+[DEC PDP1](https://en.wikipedia.org/wiki/PDP-1)                    |pdp1        |DDT                               |1960|1962|N|See ddt_doc.txt
+[DEC PDP4](https://en.wikipedia.org/wiki/PDP-4)                    |pdp4        |DECsys                            |1962||Y|
+[DEC PDP7](https://en.wikipedia.org/wiki/PDP-7)                    |pdp7        |SIM8                              |1964||Y|See sim8_doc.txt
+[DEC PDP8](https://en.wikipedia.org/wiki/PDP-8)                    |pdp8        |TSS/8                             |1966||Y|
+[DEC PDP11](https://en.wikipedia.org/wiki/PDP-11)                  |pdp11       |CAPS11                            |1969||Y|
+[DEC PDP11](https://en.wikipedia.org/wiki/PDP-11)                  |pdp11       |RT-11SJ V04.00C                   |1969|1970|Y|
+[DEC PDP11](https://en.wikipedia.org/wiki/PDP-11)                  |pdp11       |DOS11                             |1969||Y|
+[DEC PDP11](https://en.wikipedia.org/wiki/PDP-11)                  |pdp11       |RSTS/E V7                         |1969||Y|
+[DEC PDP11](https://en.wikipedia.org/wiki/PDP-11)                  |pdp11       |UNIX V5                           |1969||Y|
+[DEC PDP11](https://en.wikipedia.org/wiki/PDP-11)                  |pdp11       |UNIX V6                           |1969||Y|
+[DEC PDP11](https://en.wikipedia.org/wiki/PDP-11)                  |pdp11       |UNIX V7                           |1969||Y|
+[DEC PDP15](https://en.wikipedia.org/wiki/PDP-15)                  |pdp15       |FOCAL15                           |1970||Y|
+[DEC PDP15](https://en.wikipedia.org/wiki/PDP-15)                  |pdp15       |ASS                               |1970||Y|
+[DEC PDP15](https://en.wikipedia.org/wiki/PDP-15)                  |pdp15       |DOS15                             |1970||Y|
+[DEC PDP15](https://en.wikipedia.org/wiki/PDP-15)                  |pdp15       |XVM/RSX                           |1970||Y|
+[DEC Microvax3900](https://en.wikipedia.org/wiki/VAX)              |microvax3900|OpenVMS VAX 7.3                   |1989||Y|
 
 
 ## AT&T

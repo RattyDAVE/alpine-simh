@@ -46,44 +46,44 @@ cd /machines/3b2
 A README.md may also be included for information on how to use it. 
 
 Machine                                                            |Directory   |OS                                |H/W Year|S/W Year|Fully Working|Notes
-  ---                                                              | ---        | ---                              | ---    | ---    |---          
-[AT&T 3B2](https://en.wikipedia.org/wiki/3B_series_computers)      |3b2         |UNIX System V Release 3.2         |1984|1988|Y|
-[MITS Altair 8080](https://en.wikipedia.org/wiki/Altair_8800)      |altair      |Various                           |1975|Various|Y|See README.md
-MITS Altair Z80                                                    |altairz80   |CP/M 3                            |1975|1983|Y|See README.md
-[BLS B5500](https://en.wikipedia.org/wiki/Burroughs_large_systems) |b5500       |                                  |1964|||
-[CDC1700](https://en.wikipedia.org/wiki/CDC_1700)                  |cdc1700     |                                  |1966||Y|See [Notes](https://github.com/simh/simh/blob/master/CDC1700/CDC1700-MSOS.txt)
-[DG Eclipse](https://en.wikipedia.org/wiki/Data_General_Eclipse)   |eclipse     |RDOS 7.50                         |1974|1986|Y|
-[DG Nova](https://en.wikipedia.org/wiki/Data_General_Nova)         |nova        |RDOS 7.50                         |1969|1986|Y|
-[IBM 1130]()                                                       |ibm1130     |                                  |1965||Y|
-[Honeywell 316](https://en.wikipedia.org/wiki/Honeywell_316)       |h316        |                                  |1969||Y|See README.md
-[HP2000](https://en.wikipedia.org/wiki/HP_2100)                    |hp2100      |Time-Shared BASIC operating system|1966|1975|Y|
-[HP2000E](https://en.wikipedia.org/wiki/HP_2100)                   |hp2100      |Time-Shared BASIC operating system|1966|1975|Y|
-[HP2000F](https://en.wikipedia.org/wiki/HP_2100)                   |hp2100      |Time-Shared BASIC operating system|1966|1975|Y|
-[HP2100](https://en.wikipedia.org/wiki/HP_2100)                    |hp2100      |DOS                               |1966||Y|
-[HP2100](https://en.wikipedia.org/wiki/HP_2100)                    |hp2100      |DOS-M                             |1966||Y|
-[HP2100](https://en.wikipedia.org/wiki/HP_2100)                    |hp2100      |DOS-III                           |1966||Y|
-[HP2100](https://en.wikipedia.org/wiki/HP_2100)                    |hp2100      |MTS                               |1966||Y|
-[HP2100](https://en.wikipedia.org/wiki/HP_2100)                    |hp2100      |RTE                               |1966||Y|
-[HP2100](https://en.wikipedia.org/wiki/HP_2100)                    |hp2100      |RTE-II                            |1966||Y|
-[HP2100](https://en.wikipedia.org/wiki/HP_2100)                    |hp2100      |RTE-6/VM                          |1966|1981|Y|
-[HP3000](https://en.wikipedia.org/wiki/HP_2000)                    |hp3000      |MPE-V/R                           |1972|1985?|Y|
-[DEC PDP1](https://en.wikipedia.org/wiki/PDP-1)                    |pdp1        |LISP                              |1960||N|See lisp_doc.txt
-[DEC PDP1](https://en.wikipedia.org/wiki/PDP-1)                    |pdp1        |DDT                               |1960|1962|N|See ddt_doc.txt
-[DEC PDP4](https://en.wikipedia.org/wiki/PDP-4)                    |pdp4        |DECsys                            |1962||Y|
-[DEC PDP7](https://en.wikipedia.org/wiki/PDP-7)                    |pdp7        |SIM8                              |1964||Y|See sim8_doc.txt
-[DEC PDP8](https://en.wikipedia.org/wiki/PDP-8)                    |pdp8        |TSS/8                             |1966||Y|
-[DEC PDP11](https://en.wikipedia.org/wiki/PDP-11)                  |pdp11       |CAPS11                            |1969||Y|
-[DEC PDP11](https://en.wikipedia.org/wiki/PDP-11)                  |pdp11       |RT-11SJ V04.00C                   |1969|1970|Y|
-[DEC PDP11](https://en.wikipedia.org/wiki/PDP-11)                  |pdp11       |DOS11                             |1969||Y|
-[DEC PDP11](https://en.wikipedia.org/wiki/PDP-11)                  |pdp11       |RSTS/E V7                         |1969||Y|
-[DEC PDP11](https://en.wikipedia.org/wiki/PDP-11)                  |pdp11       |UNIX V5                           |1969||Y|
-[DEC PDP11](https://en.wikipedia.org/wiki/PDP-11)                  |pdp11       |UNIX V6                           |1969||Y|
-[DEC PDP11](https://en.wikipedia.org/wiki/PDP-11)                  |pdp11       |UNIX V7                           |1969||Y|
-[DEC PDP15](https://en.wikipedia.org/wiki/PDP-15)                  |pdp15       |FOCAL15                           |1970||Y|
-[DEC PDP15](https://en.wikipedia.org/wiki/PDP-15)                  |pdp15       |ASS                               |1970||Y|
-[DEC PDP15](https://en.wikipedia.org/wiki/PDP-15)                  |pdp15       |DOS15                             |1970||Y|
-[DEC PDP15](https://en.wikipedia.org/wiki/PDP-15)                  |pdp15       |XVM/RSX                           |1970||Y|
-[DEC Microvax3900](https://en.wikipedia.org/wiki/VAX)              |microvax3900|OpenVMS VAX 7.3                   |1989||Y|
+  ---                                                              | ---        | ---                              | ---    | ---    |---          | ---        
+[At&T 3b2](Https://En.Wikipedia.Org/Wiki/3b_Series_Computers)      |3b2         |Unix System V Release 3.2         |1984    |1988|Y|
+[Mits Altair 8080](Https://En.Wikipedia.Org/Wiki/Altair_8800)      |Altair      |Various                           |1975    |Various|Y|See Readme.Md
+Mits Altair Z80                                                    |Altairz80   |Cp/M 3                            |1975    |1983|Y|See Readme.Md
+[Bls B5500](Https://En.Wikipedia.Org/Wiki/Burroughs_Large_Systems) |B5500       |                                  |1964    |||
+[Cdc1700](Https://En.Wikipedia.Org/Wiki/Cdc_1700)                  |Cdc1700     |                                  |1966    ||Y|See [Notes](Https://Github.Com/Simh/Simh/Blob/Master/Cdc1700/Cdc1700-Msos.Txt)
+[Dg Eclipse](Https://En.Wikipedia.Org/Wiki/Data_General_Eclipse)   |Eclipse     |Rdos 7.50                         |1974    |1986|Y|
+[Dg Nova](Https://En.Wikipedia.Org/Wiki/Data_General_Nova)         |Nova        |Rdos 7.50                         |1969    |1986|Y|
+[Ibm 1130]()                                                       |Ibm1130     |                                  |1965    ||Y|
+[Honeywell 316](Https://En.Wikipedia.Org/Wiki/Honeywell_316)       |H316        |                                  |1969    ||Y|See Readme.Md
+[Hp2000](Https://En.Wikipedia.Org/Wiki/Hp_2100)                    |Hp2100      |Time-Shared Basic Operating System|1966    |1975|Y|
+[Hp2000e](Https://En.Wikipedia.Org/Wiki/Hp_2100)                   |Hp2100      |Time-Shared Basic Operating System|1966    |1975|Y|
+[Hp2000f](Https://En.Wikipedia.Org/Wiki/Hp_2100)                   |Hp2100      |Time-Shared Basic Operating System|1966    |1975|Y|
+[Hp2100](Https://En.Wikipedia.Org/Wiki/Hp_2100)                    |Hp2100      |Dos                               |1966    ||Y|
+[Hp2100](Https://En.Wikipedia.Org/Wiki/Hp_2100)                    |Hp2100      |Dos-M                             |1966    ||Y|
+[Hp2100](Https://En.Wikipedia.Org/Wiki/Hp_2100)                    |Hp2100      |Dos-Iii                           |1966    ||Y|
+[Hp2100](Https://En.Wikipedia.Org/Wiki/Hp_2100)                    |Hp2100      |Mts                               |1966    ||Y|
+[Hp2100](Https://En.Wikipedia.Org/Wiki/Hp_2100)                    |Hp2100      |Rte                               |1966    ||Y|
+[Hp2100](Https://En.Wikipedia.Org/Wiki/Hp_2100)                    |Hp2100      |Rte-Ii                            |1966    ||Y|
+[Hp2100](Https://En.Wikipedia.Org/Wiki/Hp_2100)                    |Hp2100      |Rte-6/Vm                          |1966    |1981|Y|
+[Hp3000](Https://En.Wikipedia.Org/Wiki/Hp_2000)                    |Hp3000      |Mpe-V/R                           |1972    |1985?|Y|
+[Dec Pdp1](Https://En.Wikipedia.Org/Wiki/Pdp-1)                    |Pdp1        |Lisp                              |1960    ||N|See Lisp_Doc.Txt
+[Dec Pdp1](Https://En.Wikipedia.Org/Wiki/Pdp-1)                    |Pdp1        |Ddt                               |1960    |1962|N|See Ddt_Doc.Txt
+[Dec Pdp4](Https://En.Wikipedia.Org/Wiki/Pdp-4)                    |Pdp4        |Decsys                            |1962    ||Y|
+[Dec Pdp7](Https://En.Wikipedia.Org/Wiki/Pdp-7)                    |Pdp7        |Sim8                              |1964    ||Y|See Sim8_Doc.Txt
+[Dec Pdp8](Https://En.Wikipedia.Org/Wiki/Pdp-8)                    |Pdp8        |Tss/8                             |1966    ||Y|
+[Dec Pdp11](Https://En.Wikipedia.Org/Wiki/Pdp-11)                  |Pdp11       |Caps11                            |1969    ||Y|
+[Dec Pdp11](Https://En.Wikipedia.Org/Wiki/Pdp-11)                  |Pdp11       |Rt-11sj V04.00c                   |1969    |1970|Y|
+[Dec Pdp11](Https://En.Wikipedia.Org/Wiki/Pdp-11)                  |Pdp11       |Dos11                             |1969    ||Y|
+[Dec Pdp11](Https://En.Wikipedia.Org/Wiki/Pdp-11)                  |Pdp11       |Rsts/E V7                         |1969    ||Y|
+[Dec Pdp11](Https://En.Wikipedia.Org/Wiki/Pdp-11)                  |Pdp11       |Unix V5                           |1969    ||Y|
+[Dec Pdp11](Https://En.Wikipedia.Org/Wiki/Pdp-11)                  |Pdp11       |Unix V6                           |1969    ||Y|
+[Dec Pdp11](Https://En.Wikipedia.Org/Wiki/Pdp-11)                  |Pdp11       |Unix V7                           |1969    ||Y|
+[Dec Pdp15](Https://En.Wikipedia.Org/Wiki/Pdp-15)                  |Pdp15       |Focal15                           |1970    ||Y|
+[Dec Pdp15](Https://En.Wikipedia.Org/Wiki/Pdp-15)                  |Pdp15       |Ass                               |1970    ||Y|
+[Dec Pdp15](Https://En.Wikipedia.Org/Wiki/Pdp-15)                  |Pdp15       |Dos15                             |1970    ||Y|
+[Dec Pdp15](Https://En.Wikipedia.Org/Wiki/Pdp-15)                  |Pdp15       |Xvm/Rsx                           |1970    ||Y|
+[Dec Microvax3900](Https://En.Wikipedia.Org/Wiki/Vax)              |Microvax3900|Openvms Vax 7.3                   |1989    ||Y|
 
 
 ## AT&T

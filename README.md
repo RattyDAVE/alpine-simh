@@ -54,7 +54,7 @@ Mits Altair Z80                                                    |Altairz80   
 [Cdc1700](Https://En.Wikipedia.Org/wiki/cdc_1700)                  |Cdc1700     |                                  |1966    ||Y|See [Notes](Https://Github.Com/Simh/Simh/Blob/Master/Cdc1700/Cdc1700-Msos.Txt)
 [Dg Eclipse](Https://En.Wikipedia.Org/wiki/Data_General_Eclipse)   |Eclipse     |Rdos 7.50                         |1974    |1986|Y|
 [Dg Nova](Https://En.Wikipedia.Org/wiki/Data_General_Nova)         |Nova        |Rdos 7.50                         |1969    |1986|Y|
-[Ibm 1130]()                                                       |Ibm1130     |                                  |1965    ||Y|
+Ibm 1130                                                           |Ibm1130     |                                  |1965    ||Y|
 [Honeywell 316](Https://En.Wikipedia.Org/wiki/Honeywell_316)       |H316        |                                  |1969    ||Y|See Readme.Md
 [Hp2000](Https://En.Wikipedia.Org/wiki/Hp_2100)                    |Hp2100      |Time-Shared Basic Operating System|1966    |1975|Y|
 [Hp2000e](Https://En.Wikipedia.Org/wiki/Hp_2100)                   |Hp2100      |Time-Shared Basic Operating System|1966    |1975|Y|

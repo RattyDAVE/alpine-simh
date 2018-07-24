@@ -49,7 +49,7 @@ Machine                                                            |Directory   
   ---                                                              | ---        | ---                              | ---    | ---    |---          | ---        
 [At&T 3b2](Https://En.Wikipedia.Org/Wiki/3b_Series_Computers)      |3b2         |Unix System V Release 3.2         |1984    |1988|Y|
 [Mits Altair 8080](Https://En.Wikipedia.Org/Wiki/Altair_8800)      |Altair      |Various                           |1975    |Various|Y|See Readme.Md
-Mits Altair Z80                                                    |Altairz80   |Cp/M 3                            |1975    |1983|Y|See Readme.Md
+Mits Altair Z80                                                    |Altairz80   |Cp/M 3 (with Zork)                |1975    |1983|Y|See Readme.Md
 [Bls B5500](Https://En.Wikipedia.Org/Wiki/Burroughs_Large_Systems) |B5500       |                                  |1964    |||
 [Cdc1700](Https://En.Wikipedia.Org/Wiki/Cdc_1700)                  |Cdc1700     |                                  |1966    ||Y|See [Notes](Https://Github.Com/Simh/Simh/Blob/Master/Cdc1700/Cdc1700-Msos.Txt)
 [Dg Eclipse](Https://En.Wikipedia.Org/Wiki/Data_General_Eclipse)   |Eclipse     |Rdos 7.50                         |1974    |1986|Y|
@@ -86,16 +86,6 @@ Mits Altair Z80                                                    |Altairz80   
 [Dec Microvax3900](Https://En.Wikipedia.Org/Wiki/Vax)              |Microvax3900|Openvms Vax 7.3                   |1989    ||Y|
 
 
-## AT&T
-### 3b2 https://en.wikipedia.org/wiki/3B_series_computers
-See https://loomcom.com/3b2/emulator/
-UNIX(R) System V Release 3.2 AT&T 3B2 Version 2 pre installed and ready to run.  **WORKING**
-
-## MITS
-### altair https://en.wikipedia.org/wiki/Altair_8800
-SEE README.md
-### altairz80
-Includeds CPM3 and zork (see README.md in /machines/altairz80) **WORKING**
 
 ## Burroughs Large Systems
 ### b5500 https://en.wikipedia.org/wiki/Burroughs_large_systems
@@ -106,35 +96,12 @@ Install working needs more work.
 ### BESM6 https://en.wikipedia.org/wiki/BESM-6
 Unable to find media.
 
-## Control Data Corporation
-### cdc1700 https://en.wikipedia.org/wiki/CDC_1700
-**WORKING** See instructions. https://github.com/simh/simh/blob/master/CDC1700/CDC1700-MSOS.txt
-
-## Data General
-### eclipse https://en.wikipedia.org/wiki/Data_General_Eclipse
-Mapped ECLIPSE RDOS Rev 7.50 **WORKING**
-### nova https://en.wikipedia.org/wiki/Data_General_Nova
-NOVA RDOS Rev 7.50 **WORKING**
-
 ## GRI Corporation
 ### gri
 Unable to find media.
 
-## Honeywell
-### h316 https://en.wikipedia.org/wiki/Honeywell_316
-Read the README.md
-
 ## Hewlett-Packard
-### hp2100 https://en.wikipedia.org/wiki/HP_2100
-* DOS **WORKING** (under license provided by HPE Corporation).
-* DOS-M **WORKING** (under license provided by HPE Corporation).
-* DOS-III **WORKING** (under license provided by HPE Corporation).
-* MTS **WORKING** (under license provided by HPE Corporation).
-* RTE **WORKING** (under license provided by HPE Corporation).
-* RTE-II **WORKING** (under license provided by HPE Corporation).
-* RTE-6/VM REV 6200 **WORKING** (under license provided by HPE Corporation).
 ### hp3000 https://en.wikipedia.org/wiki/HP_3000
-HP 3000 MPE-V/R version E.01.00 operating system. **WORKING**
 
 ## IBM
 ### i1401 https://en.wikipedia.org/wiki/IBM_1401
@@ -178,19 +145,6 @@ http://obsolescenceguaranteed.blogspot.co.uk/2016/06/using-simh-lgp-30-emulator.
 Need tapes get from here. ftp://ftp.informatik.uni-stuttgart.de/pub/cm/lgp30/
 
 ## DEC
-### pdp1 https://en.wikipedia.org/wiki/PDP-1
-Lisp for the PDP-1 (courtesy of the author, L Peter Deutsch).
-
-See lisp_doc.txt
-
-DDT for the PDP-1 (courtesy of Derek Peschel).
-
-See ddt_doc.txt
-### pdp4 https://en.wikipedia.org/wiki/PDP-4
-DECSys for the PDP-4 (courtesy of Harlan Lefevre). **WORKING**
-### pdp7 https://en.wikipedia.org/wiki/PDP-7
-SIM8 for the PDP-7 **WORKING**
-See sim8_doc.txt
 ### pdp8 https://en.wikipedia.org/wiki/PDP-8
 * ESI-X for the PDP-8 (courtesy of the author, David J Waks).
   * NOT INSTALLED Commented out in install_pdp8.sh
@@ -200,8 +154,6 @@ See sim8_doc.txt
 
 * OS/8 for the PDP-8 (under license provided by Digital Equipment Corporation).
   * NOT INSTALLED Commented out in install_pdp8.sh
-
-* TSS/8 for the PDP-8 (courtesy of Digital Equipment Corporation). **WORKING**
 
 * 4k Disk Monitor System for the PDP-8 (courtesy of Digital Equipment Corporation).
   * NOT INSTALLED Commented out in install_pdp8.sh
@@ -216,43 +168,13 @@ Unable to find media.
 Media in http://pdp-10.trailing-edge.com/
 NOT INSTALLED 
 ### pdp11 https://en.wikipedia.org/wiki/PDP-11
-* CAPS-11 operating system for a PDP-11 with casette storage (courtesy of Digital Equipment Corporation, prepared by Malcolm Macleod and Lou Ernst)
-  * Installed in caps11_system **WORKING**
 
 * CAPS-11 BASIC interactive BASIC operating environment for a PDP-11 with casette storage (courtesy of Digital Equipment Corporation, prepared by Malcolm Macleod and Lou Ernst)
   * Installed in BASIC_CAPS-11_distribution **WORKING**
 
-* DOS/Batch-11 V10 for the PDP-11.
-  * Installed in dos11 **WORKING**
-
-* RSTS/E V7 distribution system and RSTS/E prebuilt system for the PDP-11 (under license provided by Mentec Corporation).
-  * Installed in rstsv7swre **WORKING**
-
-* PDP-11 UNIX V5 with sources (under license provided by Caldera Corporation).
-  * Installed in uv5swre **WORKING**
-
-
-* PDP-11 UNIX V6 with sources (under license provided by Caldera Corporation).
-  * Installed in uv6swre **WORKING**
-
-* PDP-11 UNIX V7 with sources (under license provided by Caldera Corporation).
-  * Installed in uv7swre **WORKING**
-
 ### pdp15 https://en.wikipedia.org/wiki/PDP-15
-* FOCAL15 for the PDP-15 (courtesy of Digital Equipment Corporation).
-Installed in focal15 **WORKING**
-
-* Advanced Software System, both Keyboard Monitor and Foreground/Background, for the PDP-15 (courtesy of Digital Equipment Corporation).
-Installed in adss15 **WORKING**
-
-* DOS-15 for the PDP-15 (courtesy of Digital Equipment Corporation).
-Installed in dos15 **WORKING**
-
 * XVM/DOS for the PDP-15 (courtesy of Digital Equipment Corporation).
 Not installed. 
-
-* XVM/RSX for the PDP-15 (courtesy of Digital Equipment Corporation, prepared by Andrew Warkentin).
-Installed in xvmrsx - **This is probably the one want.**
 
 ### vax https://en.wikipedia.org/wiki/VAX
 * NetBSD 7.1.1 http://www.netbsd.org/ **WORKING**

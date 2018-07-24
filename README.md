@@ -67,22 +67,22 @@ Ibm 1130                                                           |Ibm1130     
 [Hp2100](Https://En.Wikipedia.Org/wiki/Hp_2100)                    |Hp2100      |Rte-Ii                            |1966    ||Y|
 [Hp2100](Https://En.Wikipedia.Org/wiki/Hp_2100)                    |Hp2100      |Rte-6/Vm                          |1966    |1981|Y|
 [Hp3000](Https://En.Wikipedia.Org/wiki/Hp_2000)                    |Hp3000      |Mpe-V/R                           |1972    |1985?|Y|
-[Dec Pdp1](Https://En.Wikipedia.Org/wiki/Pdp-1)                    |Pdp1        |Lisp                              |1960    ||N|See Lisp_Doc.Txt
-[Dec Pdp1](Https://En.Wikipedia.Org/wiki/Pdp-1)                    |Pdp1        |Ddt                               |1960    |1962|N|See Ddt_Doc.Txt
-[Dec Pdp4](Https://En.Wikipedia.Org/wiki/Pdp-4)                    |Pdp4        |Decsys                            |1962    ||Y|
-[Dec Pdp7](Https://En.Wikipedia.Org/wiki/Pdp-7)                    |Pdp7        |Sim8                              |1964    ||Y|See Sim8_Doc.Txt
-[Dec Pdp8](Https://En.Wikipedia.Org/wiki/Pdp-8)                    |Pdp8        |Tss/8                             |1966    ||Y|
-[Dec Pdp11](Https://En.Wikipedia.Org/wiki/Pdp-11)                  |Pdp11       |Caps11                            |1969    ||Y|
-[Dec Pdp11](Https://En.Wikipedia.Org/wiki/Pdp-11)                  |Pdp11       |Rt-11sj V04.00c                   |1969    |1970|Y|
-[Dec Pdp11](Https://En.Wikipedia.Org/wiki/Pdp-11)                  |Pdp11       |Dos11                             |1969    ||Y|
-[Dec Pdp11](Https://En.Wikipedia.Org/wiki/Pdp-11)                  |Pdp11       |Rsts/E V7                         |1969    ||Y|
-[Dec Pdp11](Https://En.Wikipedia.Org/wiki/Pdp-11)                  |Pdp11       |Unix V5                           |1969    ||Y|
-[Dec Pdp11](Https://En.Wikipedia.Org/wiki/Pdp-11)                  |Pdp11       |Unix V6                           |1969    ||Y|
-[Dec Pdp11](Https://En.Wikipedia.Org/wiki/Pdp-11)                  |Pdp11       |Unix V7                           |1969    ||Y|
-[Dec Pdp15](Https://En.Wikipedia.Org/wiki/Pdp-15)                  |Pdp15       |Focal15                           |1970    ||Y|
-[Dec Pdp15](Https://En.Wikipedia.Org/wiki/Pdp-15)                  |Pdp15       |Ass                               |1970    ||Y|
-[Dec Pdp15](Https://En.Wikipedia.Org/wiki/Pdp-15)                  |Pdp15       |Dos15                             |1970    ||Y|
-[Dec Pdp15](Https://En.Wikipedia.Org/wiki/Pdp-15)                  |Pdp15       |Xvm/Rsx                           |1970    ||Y|
+[Dec Pdp1](Https://En.Wikipedia.Org/wiki/PDP-1)                    |Pdp1        |Lisp                              |1960    ||N|See Lisp_Doc.Txt
+[Dec Pdp1](Https://En.Wikipedia.Org/wiki/PDP-1)                    |Pdp1        |Ddt                               |1960    |1962|N|See Ddt_Doc.Txt
+[Dec Pdp4](Https://En.Wikipedia.Org/wiki/PDP-4)                    |Pdp4        |Decsys                            |1962    ||Y|
+[Dec Pdp7](Https://En.Wikipedia.Org/wiki/PDP-7)                    |Pdp7        |Sim8                              |1964    ||Y|See Sim8_Doc.Txt
+[Dec Pdp8](Https://En.Wikipedia.Org/wiki/PDP-8)                    |Pdp8        |Tss/8                             |1966    ||Y|
+[Dec Pdp11](Https://En.Wikipedia.Org/wiki/PDP-11)                  |Pdp11       |Caps11                            |1969    ||Y|
+[Dec Pdp11](Https://En.Wikipedia.Org/wiki/PDP-11)                  |Pdp11       |Rt-11sj V04.00c                   |1969    |1970|Y|
+[Dec Pdp11](Https://En.Wikipedia.Org/wiki/PDP-11)                  |Pdp11       |Dos11                             |1969    ||Y|
+[Dec Pdp11](Https://En.Wikipedia.Org/wiki/PDP-11)                  |Pdp11       |Rsts/E V7                         |1969    ||Y|
+[Dec Pdp11](Https://En.Wikipedia.Org/wiki/PDP-11)                  |Pdp11       |Unix V5                           |1969    ||Y|
+[Dec Pdp11](Https://En.Wikipedia.Org/wiki/PDP-11)                  |Pdp11       |Unix V6                           |1969    ||Y|
+[Dec Pdp11](Https://En.Wikipedia.Org/wiki/PDP-11)                  |Pdp11       |Unix V7                           |1969    ||Y|
+[Dec Pdp15](Https://En.Wikipedia.Org/wiki/PDP-15)                  |Pdp15       |Focal15                           |1970    ||Y|
+[Dec Pdp15](Https://En.Wikipedia.Org/wiki/PDP-15)                  |Pdp15       |Ass                               |1970    ||Y|
+[Dec Pdp15](Https://En.Wikipedia.Org/wiki/PDP-15)                  |Pdp15       |Dos15                             |1970    ||Y|
+[Dec Pdp15](Https://En.Wikipedia.Org/wiki/PDP-15)                  |Pdp15       |Xvm/Rsx                           |1970    ||Y|
 [Dec Microvax3900](Https://En.Wikipedia.Org/wiki/Vax)              |Microvax3900|Openvms Vax 7.3                   |1989    ||Y|
 
 

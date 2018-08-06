@@ -51,7 +51,7 @@ Machine                                                            |Directory   
 [Mits Altair 8080](https://en.wikipedia.org/wiki/Altair_8800)      |Altair      |Various                           |1975    |Various|Y|See Readme.Md
 Mits Altair Z80                                                    |Altairz80   |Cp/M 3 (with Zork)                |1975    |1983|Y|See Readme.Md
 [Bls B5500](https://en.wikipedia.org/wiki/Burroughs_large_systems) |B5500       |                                  |1964    |||
-[Cdc1700](Https://En.Wikipedia.Org/wiki/cdc_1700)                  |Cdc1700     |                                  |1966    ||Y|See [Notes](Https://Github.Com/Simh/Simh/Blob/Master/Cdc1700/Cdc1700-Msos.Txt)
+[Cdc1700](Https://En.Wikipedia.Org/wiki/CDC_1700)                  |Cdc1700     |                                  |1966    ||Y|See [Notes](https://raw.githubusercontent.com/simh/simh/master/CDC1700/CDC1700-MSOS.txt)
 [Dg Eclipse](Https://En.Wikipedia.Org/wiki/Data_General_Eclipse)   |Eclipse     |Rdos 7.50                         |1974    |1986|Y|
 [Dg Nova](Https://En.Wikipedia.Org/wiki/Data_General_Nova)         |Nova        |Rdos 7.50                         |1969    |1986|Y|
 Ibm 1130                                                           |Ibm1130     |                                  |1965    ||Y|

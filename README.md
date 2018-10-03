@@ -103,24 +103,32 @@ GRI Corporation                                                                 
 [IBM i7094](https://en.wikipedia.org/wiki/IBM_7090#IBM_7094)                              |            |                                  |        |        | N           | Unable to find media.
 [IBM 1130](https://en.wikipedia.org/wiki/IBM_1130)                              |            |                                  |        |        | N           | Unable to find media.
 [IBM s3](https://en.wikipedia.org/wiki/IBM_System/3)                              |            |                                  |        |        | N           | Unable to find media.
+[Interdata, Inc. id16](https://en.wikipedia.org/wiki/Interdata)                              |            |                                  |        |        | N           | Unable to find media.
+[Interdata, Inc. id32](https://en.wikipedia.org/wiki/Interdata_7/32_and_8/32)                              |            |                                  |        |        | N           | Unable to find media.
+[Intel Systems imds-225]()                              |            |                                  |        |        | N           | Unable to find media.
+[Intel Systems isys8010]()                              |            |                                  |        |        | N           | Unable to find media.
+[Intel Systems isys8020]()                              |            |                                  |        |        | N           | Unable to find media.
+[Intel Systems isys8024]()                              |            |                                  |        |        | N           | Unable to find media.
+[Intel Systems isys8030]()                              |            |                                  |        |        | N           | Unable to find media.
+[Royal-McBee](https://en.wikipedia.org/wiki/LGP-30)     |   lgp      |                                  |        |        | N           | http://obsolescenceguaranteed.blogspot.co.uk/2016/06/using-simh-lgp-30-emulator.html Need tapes get from here. ftp://ftp.informatik.uni-stuttgart.de/pub/cm/lgp30/ 
+[Dec Pdp9](Https://en.wikipedia.org/wiki/PDP-9)         |Pdp9        |                                  |        |        |N| Unable to find media.
+[Dec Pdp10](Https://en.wikipedia.org/wiki/PDP-10)         |Pdp10        |                                  |        |        |N| Media in http://pdp-10.trailing-edge.com/
+[Dec rtvax1000]()         |rtvax1000        |                                  |        |        |N| Unable to find media.
+[Dec vax730]()         |vax730        |                                  |        |        |N| Unable to find media.
+[Dec vax750]()         |vax750        |                                  |        |        |N| Unable to find media.
+[Dec vax780]()         |vax780        |                                  |        |        |N| Unable to find media.
+[Dec vax8600]()         |vax8600        |                                  |        |        |N| Unable to find media.
+[Dec microvax1]()         |microvax1        |                                  |        |        |N| Unable to find media.
+[Dec microvax2]()         |microvax2        |                                  |        |        |N| Unable to find media.
+[Dec microvax3900]()         |microvax3900        |                                  |        |        |N| Unable to find media.
+[Scelbi Computer Consulting](http://history-computer.com/ModernComputer/Personal/Scelbi.html)         |scelbi        |                                  |        |        |N| Unable to find media.
+[Scientific Data Systems](https://en.wikipedia.org/wiki/SDS_930)         |       |                                  |        |        |N| Tapes at http://www.bitsavers.org/bits/SDS/9xx/
+[Manchester University SSEM](https://en.wikipedia.org/wiki/Manchester_Small-Scale_Experimental_Machine)         | ssem      |                                  |        |        |N| Unable to find media.
+[Southwest Technical Products Corporation swtp6800mp-a](http://www.swtpc.com/mholley/swtpc_6800.htm)         | swtp6800mp-a      |                                  |        |        |N| Unable to find media.
+[Southwest Technical Products Corporation swtp6800mp-a2](http://www.swtpc.com/mholley/swtpc_6800.htm)         | swtp6800mp-a2      |                                  |        |        |N| Unable to find media.
+[MIT Lincoln Laboratory](https://en.wikipedia.org/wiki/TX-0)         |  tx-0     |                                  |        |        |N| Code at http://www.bitsavers.org/bits/MIT/tx-0/
 
 
-
-## Interdata, Inc.
-### id16 https://en.wikipedia.org/wiki/Interdata
-### id32 https://en.wikipedia.org/wiki/Interdata_7/32_and_8/32
-
-##  Intel Systems
-### imds-225
-### isys8010
-### isys8020
-### isys8024
-### isys8030
-
-## The Royal-McBee
-### lgp https://en.wikipedia.org/wiki/LGP-30
-http://obsolescenceguaranteed.blogspot.co.uk/2016/06/using-simh-lgp-30-emulator.html
-Need tapes get from here. ftp://ftp.informatik.uni-stuttgart.de/pub/cm/lgp30/
 
 ## DEC
 ### pdp8 https://en.wikipedia.org/wiki/PDP-8
@@ -139,12 +147,6 @@ Need tapes get from here. ftp://ftp.informatik.uni-stuttgart.de/pub/cm/lgp30/
 * CAPS-8 cassette operating system for the PDP-8 (courtesy of Digital Equipment Corporation, prepared by David Gesswein).
   * NOT INSTALLED Commented out in install_pdp8.sh
 
-### pdp9 https://en.wikipedia.org/wiki/PDP-9
-Unable to find media.
-
-### pdp10 https://en.wikipedia.org/wiki/PDP-10
-Media in http://pdp-10.trailing-edge.com/
-NOT INSTALLED 
 ### pdp11 https://en.wikipedia.org/wiki/PDP-11
 
 * CAPS-11 BASIC interactive BASIC operating environment for a PDP-11 with casette storage (courtesy of Digital Equipment Corporation, prepared by Malcolm Macleod and Lou Ernst)
@@ -157,31 +159,3 @@ Not installed.
 ### vax https://en.wikipedia.org/wiki/VAX
 * NetBSD 7.1.1 http://www.netbsd.org/ **WORKING**
 
-### rtvax1000
-### vax730
-### vax750
-### vax780
-### vax8600
-### microvax1
-### microvax2
-### microvax3900
-Ready to run OpenVMS VAX 7.3 ** WORKING **
-See README.md
-
-## Scelbi Computer Consulting
-### scelbi http://history-computer.com/ModernComputer/Personal/Scelbi.html
-
-## Scientific Data Systems
-### sds https://en.wikipedia.org/wiki/SDS_930
-Tapes at http://www.bitsavers.org/bits/SDS/9xx/
-
-## Manchester University SSEM
-### ssem https://en.wikipedia.org/wiki/Manchester_Small-Scale_Experimental_Machine
-
-## Southwest Technical Products Corporation
-### swtp6800mp-a http://www.swtpc.com/mholley/swtpc_6800.htm
-### swtp6800mp-a2 http://www.swtpc.com/mholley/swtpc_6800.htm
-
-##  MIT Lincoln Laboratory
-### tx-0 https://en.wikipedia.org/wiki/TX-0
-Code at http://www.bitsavers.org/bits/MIT/tx-0/

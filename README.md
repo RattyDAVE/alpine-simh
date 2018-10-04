@@ -88,19 +88,19 @@ Ibm 1130                                                           |Ibm1130     
 
 Machine                                                                          |Directory   |OS                                |H/W Year|S/W Year|Fully Working|Notes
   ---                                                                            | ---        | ---                              | ---    | ---    |---          | ---        
-[Burroughs Large Systems](https://en.wikipedia.org/wiki/Burroughs_large_systems) | b5500      |                                  |        |        | N           | See http://sky-visions.com/burroughs/index.shtml Install working needs more work.
-[Bolshaya Elektronno-Schetnaya Mashina ("Большая Электронно-Счётная Машина")](https://en.wikipedia.org/wiki/BESM-6) | BESM6 |    |        |        | N           | Unable to find media. 
-GRI Corporation                                                                  | gri        |                                  |        |        | N           | Unable to find media.
-[Hewlett-Packard hp3000](https://en.wikipedia.org/wiki/HP_3000)                  |            |                                  |        |        | N           | Unable to find media.
-[IBM i1401](https://en.wikipedia.org/wiki/IBM_14010)                             |            |                                  |        |        | N           | Unable to find media.
-[IBM i1620](https://en.wikipedia.org/wiki/IBM_1620)                              |            |                                  |        |        | N           | Unable to find media.
-[IBM i701](https://en.wikipedia.org/wiki/IBM_701)                              |            |                                  |        |        | N           | Unable to find media.
-[IBM i7010](https://en.wikipedia.org/wiki/IBM_700/7000_series#1400_series_architecture_(7010))                              |            |                                  |        |        | N           | Unable to find media.
-[IBM i704](https://en.wikipedia.org/wiki/IBM_704)                              |            |                                  |        |        | N           | Unable to find media.
-[IBM i7070](https://en.wikipedia.org/wiki/IBM_7070)                              |            |                                  |        |        | N           | Unable to find media.
-[IBM i7080](https://en.wikipedia.org/wiki/IBM_7080)                              |            |                                  |        |        | N           | Unable to find media.
-[IBM i7090](https://en.wikipedia.org/wiki/IBM_7090)                              |            |                                  |        |        | N           | Unable to find media.
-[IBM i7094](https://en.wikipedia.org/wiki/IBM_7090#IBM_7094)                              |            |                                  |        |        | N           | Unable to find media.
+[Burroughs Large Systems](https://en.wikipedia.org/wiki/Burroughs_large_systems) | b5500      |                                  | 1964 |        | N           | See http://sky-visions.com/burroughs/index.shtml Install working needs more work.
+[Bolshaya Elektronno-Schetnaya Mashina ("Большая Электронно-Счётная Машина")](https://en.wikipedia.org/wiki/BESM-6) | BESM6 |    | 1968 |        | N           | Unable to find media. 
+GRI Corporation                                                                  | gri        |                                  | |        | N           | Unable to find media.
+[Hewlett-Packard hp3000](https://en.wikipedia.org/wiki/HP_3000)                  |            |                                  | 1974 |        | N           | Unable to find media.
+[IBM i1401](https://en.wikipedia.org/wiki/IBM_4010)                             |            |                                  |  1959  |        | N           | Unable to find media.
+[IBM i1620](https://en.wikipedia.org/wiki/IBM_1620)                              |            |                                  | 1959 |        | N           | Unable to find media.
+[IBM i701](https://en.wikipedia.org/wiki/IBM_701)                              |            |                                  |   1952     |        | N           | Unable to find media.
+[IBM i7010](https://en.wikipedia.org/wiki/IBM_700/7000_series#1400_series_architecture_(7010))                              | 1962 |                                  |        |        | N           | Unable to find media.
+[IBM i704](https://en.wikipedia.org/wiki/IBM_704)                              |            |                                  |   1954     |        | N           | Unable to find media.
+[IBM i7070](https://en.wikipedia.org/wiki/IBM_7070)                              |            |                                  | 1958 |        | N           | Unable to find media.
+[IBM i7080](https://en.wikipedia.org/wiki/IBM_7080)                              |            |                                  | 1961 |        | N           | Unable to find media.
+[IBM i7090](https://en.wikipedia.org/wiki/IBM_7090)                              |            |                                  | 1959 |        | N           | Unable to find media.
+[IBM i7094](https://en.wikipedia.org/wiki/IBM_7090#IBM_7094)                              |            |                                  |  1962      |        | N           | Unable to find media.
 [IBM 1130](https://en.wikipedia.org/wiki/IBM_1130)                              |            |                                  |        |        | N           | Unable to find media.
 [IBM s3](https://en.wikipedia.org/wiki/IBM_System/3)                              |            |                                  |        |        | N           | Unable to find media.
 [Interdata, Inc. id16](https://en.wikipedia.org/wiki/Interdata)                              |            |                                  |        |        | N           | Unable to find media.

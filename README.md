@@ -92,7 +92,7 @@ Machine                                                                         
 [Bolshaya Elektronno-Schetnaya Mashina ("Большая Электронно-Счётная Машина")](https://en.wikipedia.org/wiki/BESM-6) | BESM6 |    | 1968 |        | N           | Unable to find media. 
 GRI Corporation                                                                  | gri        |                                  | |        | N           | Unable to find media.
 [Hewlett-Packard hp3000](https://en.wikipedia.org/wiki/HP_3000)                  |            |                                  | 1974 |        | N           | Unable to find media.
-[IBM i1401](https://en.wikipedia.org/wiki/IBM_4010)                             |            |                                  |  1959  |        | N           | Unable to find media.
+[IBM i1401](https://en.wikipedia.org/wiki/IBM_1401)                             |            |                                  |  1959  |        | N           | Unable to find media.
 [IBM i1620](https://en.wikipedia.org/wiki/IBM_1620)                              |            |                                  | 1959 |        | N           | Unable to find media.
 [IBM i701](https://en.wikipedia.org/wiki/IBM_701)                              |            |                                  |   1952     |        | N           | Unable to find media.
 [IBM i7010](https://en.wikipedia.org/wiki/IBM_700/7000_series#1400_series_architecture_(7010))                              | |  |   1962   |        | N           | Unable to find media.
@@ -101,26 +101,26 @@ GRI Corporation                                                                 
 [IBM i7080](https://en.wikipedia.org/wiki/IBM_7080)                              |            |                                  | 1961 |        | N           | Unable to find media.
 [IBM i7090](https://en.wikipedia.org/wiki/IBM_7090)                              |            |                                  | 1959 |        | N           | Unable to find media.
 [IBM i7094](https://en.wikipedia.org/wiki/IBM_7090#IBM_7094)                              |            |                                  |  1962      |        | N           | Unable to find media.
-[IBM 1130](https://en.wikipedia.org/wiki/IBM_1130)                              |            |                                  |        |        | N           | Unable to find media.
-[IBM s3](https://en.wikipedia.org/wiki/IBM_System/3)                              |            |                                  |        |        | N           | Unable to find media.
-[Interdata, Inc. id16](https://en.wikipedia.org/wiki/Interdata)                              |            |                                  |        |        | N           | Unable to find media.
-[Interdata, Inc. id32](https://en.wikipedia.org/wiki/Interdata_7/32_and_8/32)                              |            |                                  |        |        | N           | Unable to find media.
+[IBM 1130](https://en.wikipedia.org/wiki/IBM_1130)                              |            |                                  |  1965 |        | N           | Unable to find media.
+[IBM s3](https://en.wikipedia.org/wiki/IBM_System/3)                              |            |                                  | 1969 |        | N           | Unable to find media.
+[Interdata, Inc. id16](https://en.wikipedia.org/wiki/Interdata)                              |            |                                  |    Before 1974    |        | N           | Unable to find media.
+[Interdata, Inc. id32](https://en.wikipedia.org/wiki/Interdata_7/32_and_8/32)                              |            |                                  |   1974     |        | N           | Unable to find media.
 [Intel Systems imds-225]()                              |            |                                  |        |        | N           | Unable to find media.
 [Intel Systems isys8010]()                              |            |                                  |        |        | N           | Unable to find media.
 [Intel Systems isys8020]()                              |            |                                  |        |        | N           | Unable to find media.
 [Intel Systems isys8024]()                              |            |                                  |        |        | N           | Unable to find media.
 [Intel Systems isys8030]()                              |            |                                  |        |        | N           | Unable to find media.
 [Royal-McBee](https://en.wikipedia.org/wiki/LGP-30)     |   lgp      |                                  | 1956 |        | N           | http://obsolescenceguaranteed.blogspot.co.uk/2016/06/using-simh-lgp-30-emulator.html Need tapes get from here. ftp://ftp.informatik.uni-stuttgart.de/pub/cm/lgp30/ 
-[Dec Pdp9](Https://en.wikipedia.org/wiki/PDP-9)         |Pdp9        |                                  |        |        |N| Unable to find media.
-[Dec Pdp10](Https://en.wikipedia.org/wiki/PDP-10)         |Pdp10        |                                  |        |        |N| Media in http://pdp-10.trailing-edge.com/
+[Dec Pdp9](Https://en.wikipedia.org/wiki/PDP-9)         |Pdp9        |                                  | 1966       |        |N| Unable to find media.
+[Dec Pdp10](Https://en.wikipedia.org/wiki/PDP-10)         |Pdp10        |                                  | 1966       |        |N| Media in http://pdp-10.trailing-edge.com/
 [Dec rtvax1000]()         |rtvax1000        |                                  |        |        |N| Unable to find media.
-[Dec vax730]()         |vax730        |                                  |        |        |N| Unable to find media.
-[Dec vax750]()         |vax750        |                                  |        |        |N| Unable to find media.
-[Dec vax780]()         |vax780        |                                  |        |        |N| Unable to find media.
-[Dec vax8600]()         |vax8600        |                                  |        |        |N| Unable to find media.
-[Dec microvax1]()         |microvax1        |                                  |        |        |N| Unable to find media.
-[Dec microvax2]()         |microvax2        |                                  |        |        |N| Unable to find media.
-[Dec microvax3900]()         |microvax3900        |                                  |        |        |N| Unable to find media.
+[Dec vax730]()         |vax730        |                                  | 1982       |        |N| Unable to find media.
+[Dec vax750]()         |vax750        |                                  |   1980     |        |N| Unable to find media.
+[Dec vax780]()         |vax780        |                                  |    1977    |        |N| Unable to find media.
+[Dec vax8600]()         |vax8600        |                                  |   1984     |        |N| Unable to find media.
+[Dec microvax1]()         |microvax1        |                                  |  1983      |        |N| Unable to find media.
+[Dec microvax2]()         |microvax2        |                                  |   1985     |        |N| Unable to find media.
+[Dec microvax3900]()         |microvax3900        |                                  |    1989    |        |N| Unable to find media.
 [Scelbi Computer Consulting](http://history-computer.com/ModernComputer/Personal/Scelbi.html)         |scelbi        |                                  |        |        |N| Unable to find media.
 [Scientific Data Systems](https://en.wikipedia.org/wiki/SDS_930)         |       |                                  |        |        |N| Tapes at http://www.bitsavers.org/bits/SDS/9xx/
 [Manchester University SSEM](https://en.wikipedia.org/wiki/Manchester_Small-Scale_Experimental_Machine)         | ssem      |                                  |        |        |N| Unable to find media.

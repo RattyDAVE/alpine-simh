@@ -110,7 +110,7 @@ GRI Corporation                                                                 
 [Intel Systems isys8020]()                              |            |                                  |        |        | N           | Unable to find media.
 [Intel Systems isys8024]()                              |            |                                  |        |        | N           | Unable to find media.
 [Intel Systems isys8030]()                              |            |                                  |        |        | N           | Unable to find media.
-[Royal-McBee](https://en.wikipedia.org/wiki/LGP-30)     |   lgp      |                                  |        |        | N           | http://obsolescenceguaranteed.blogspot.co.uk/2016/06/using-simh-lgp-30-emulator.html Need tapes get from here. ftp://ftp.informatik.uni-stuttgart.de/pub/cm/lgp30/ 
+[Royal-McBee](https://en.wikipedia.org/wiki/LGP-30)     |   lgp      |                                  | 1956 |        | N           | http://obsolescenceguaranteed.blogspot.co.uk/2016/06/using-simh-lgp-30-emulator.html Need tapes get from here. ftp://ftp.informatik.uni-stuttgart.de/pub/cm/lgp30/ 
 [Dec Pdp9](Https://en.wikipedia.org/wiki/PDP-9)         |Pdp9        |                                  |        |        |N| Unable to find media.
 [Dec Pdp10](Https://en.wikipedia.org/wiki/PDP-10)         |Pdp10        |                                  |        |        |N| Media in http://pdp-10.trailing-edge.com/
 [Dec rtvax1000]()         |rtvax1000        |                                  |        |        |N| Unable to find media.

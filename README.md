@@ -95,7 +95,7 @@ GRI Corporation                                                                 
 [IBM i1401](https://en.wikipedia.org/wiki/IBM_4010)                             |            |                                  |  1959  |        | N           | Unable to find media.
 [IBM i1620](https://en.wikipedia.org/wiki/IBM_1620)                              |            |                                  | 1959 |        | N           | Unable to find media.
 [IBM i701](https://en.wikipedia.org/wiki/IBM_701)                              |            |                                  |   1952     |        | N           | Unable to find media.
-[IBM i7010](https://en.wikipedia.org/wiki/IBM_700/7000_series#1400_series_architecture_(7010))                              | 1962 |                                  |        |        | N           | Unable to find media.
+[IBM i7010](https://en.wikipedia.org/wiki/IBM_700/7000_series#1400_series_architecture_(7010))                              | | 1962 |        |        | N           | Unable to find media.
 [IBM i704](https://en.wikipedia.org/wiki/IBM_704)                              |            |                                  |   1954     |        | N           | Unable to find media.
 [IBM i7070](https://en.wikipedia.org/wiki/IBM_7070)                              |            |                                  | 1958 |        | N           | Unable to find media.
 [IBM i7080](https://en.wikipedia.org/wiki/IBM_7080)                              |            |                                  | 1961 |        | N           | Unable to find media.

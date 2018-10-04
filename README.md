@@ -121,12 +121,12 @@ GRI Corporation                                                                 
 [Dec microvax1]()         |microvax1        |                                  |  1983      |        |N| Unable to find media.
 [Dec microvax2]()         |microvax2        |                                  |   1985     |        |N| Unable to find media.
 [Dec microvax3900]()         |microvax3900        |                                  |    1989    |        |N| Unable to find media.
-[Scelbi Computer Consulting](http://history-computer.com/ModernComputer/Personal/Scelbi.html)         |scelbi        |                                  |        |        |N| Unable to find media.
-[Scientific Data Systems](https://en.wikipedia.org/wiki/SDS_930)         |       |                                  |        |        |N| Tapes at http://www.bitsavers.org/bits/SDS/9xx/
-[Manchester University SSEM](https://en.wikipedia.org/wiki/Manchester_Small-Scale_Experimental_Machine)         | ssem      |                                  |        |        |N| Unable to find media.
-[Southwest Technical Products Corporation swtp6800mp-a](http://www.swtpc.com/mholley/swtpc_6800.htm)         | swtp6800mp-a      |                                  |        |        |N| Unable to find media.
-[Southwest Technical Products Corporation swtp6800mp-a2](http://www.swtpc.com/mholley/swtpc_6800.htm)         | swtp6800mp-a2      |                                  |        |        |N| Unable to find media.
-[MIT Lincoln Laboratory](https://en.wikipedia.org/wiki/TX-0)         |  tx-0     |                                  |        |        |N| Code at http://www.bitsavers.org/bits/MIT/tx-0/
+[Scelbi Computer Consulting](http://history-computer.com/ModernComputer/Personal/Scelbi.html)         |scelbi        |                                  |   1973     |        |N| Unable to find media.
+[Scientific Data Systems](https://en.wikipedia.org/wiki/SDS_930) |  |  | 1964 | |N| Tapes at http://www.bitsavers.org/bits/SDS/9xx/
+[Manchester University SSEM](https://en.wikipedia.org/wiki/Manchester_Small-Scale_Experimental_Machine)         | ssem      |                                  | 1948 |        |N| Unable to find media.
+[Southwest Technical Products Corporation swtp6800mp-a](http://www.swtpc.com/mholley/swtpc_6800.htm)         | swtp6800mp-a      |                                  | 1976 |        |N| Unable to find media.
+[Southwest Technical Products Corporation swtp6800mp-a2](http://www.swtpc.com/mholley/swtpc_6800.htm)         | swtp6800mp-a2      |                                  | 1976 |        |N| Unable to find media.
+[MIT Lincoln Laboratory](https://en.wikipedia.org/wiki/TX-0) | tx-0 | |  1956 | |N| Code at http://www.bitsavers.org/bits/MIT/tx-0/
 
 
 

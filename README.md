@@ -11,6 +11,7 @@ Use https://github.com/RattyDAVE/alpine-simh/issues to send feedback, issues, co
 * https://hub.docker.com/r/rattydave/docker-ubuntu-hercules-vm370 - vm370 Emulator with Robert O'Hara's Six Pack
 * https://hub.docker.com/r/rattydave/docker-ubuntu-hercules-mvs - Fully running MVS 3.8j Tur(n)key 4- System. IBM Mainframe.
 * https://hub.docker.com/r/rattydave/alpine-simh/ - AT&T, Data General, DEC PDPs and VAXen, Honeywell, HP and others. All with OSs.
+* https://hub.docker.com/r/rattydave/cray1/ - Cray 1 Supercomputer
 
 Donations are always welcome.
 Bitcoin : 15c4aey1mVswagkCw4uTCRQHNvjEuMjzTL

@@ -23,8 +23,8 @@ docker run --name mini -it rattydave/alpine-simh
 
 simh built from the latest source.
 
-rattydave/alpine-simh:core   - The latest simh built from source (at build time).
-rattydave/alpine-simh:latest - as rattydave/alpine-simh:core but witht he scripts to install the machines too.
+- rattydave/alpine-simh:core   - The latest simh built from source (at build time).
+- rattydave/alpine-simh:latest - as rattydave/alpine-simh:core but with the scripts to install the machines too.
 
 To run the included machines change directory to the /machine directory and then change to the sub directory for the machine.
 

@@ -19,8 +19,8 @@ WORKDIR /usr/src/simh
 #RUN cd simh
     #sed -e "s/\$(error Retry your build without specifying USE_NETWORK=1)/# SUPRESSED /g" makefile > makefile2 && \
     #make LIBPATH=/usr/lib INCPATH=/usr/include USE_NETWORK=1 -j $(nproc) -f makefile2 all && \
-RUN make LIBPATH=/usr/lib INCPATH=/usr/include -j $(nproc) all
-#RUN make LIBPATH=/usr/lib INCPATH=/usr/include
+#RUN make LIBPATH=/usr/lib INCPATH=/usr/include -j $(nproc) all
+RUN make LIBPATH=/usr/lib INCPATH=/usr/include
 
 RUN apk del build-dependencies
 RUN rm -rf /var/cache/apk/*

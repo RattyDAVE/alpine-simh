@@ -13,18 +13,30 @@ Use https://github.com/RattyDAVE/alpine-simh/issues to send feedback, issues, co
 * https://hub.docker.com/r/rattydave/alpine-simh/ - AT&T, Data General, DEC PDPs and VAXen, Honeywell, HP and others. All with OSs.
 * https://hub.docker.com/r/rattydave/cray1/ - Cray 1 Supercomputer
 
-Donations are always welcome.
-Bitcoin : 15c4aey1mVswagkCw4uTCRQHNvjEuMjzTL
-
-
 # Usage
 
+```
 docker run --name mini -it rattydave/alpine-simh
+```
 
 simh built from the latest source.
 
 - rattydave/alpine-simh:core   - The latest simh built from source (at build time).
 - rattydave/alpine-simh:latest - as rattydave/alpine-simh:core but with the scripts to install the machines too.
+
+
+## Auto Update
+
+To automatically update I recomend using watchtower.
+
+```
+docker run -d \
+  --name watchtower \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  v2tec/watchtower 
+```
+
+## Running
 
 To run the included machines change directory to the /machine directory and then change to the sub directory for the machine.
 

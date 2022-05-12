@@ -8,17 +8,14 @@ ENV RUNPKGS "net-tools vde2 vde2-libs libpcap nano readline bash curl wget unzip
 COPY /machines/ /machines/
 
 RUN apk --update --no-cache add $RUNPKGS && rm -rf /var/cache/apk/* && \
-    apk --no-cache add --virtual build-dependencies $BUILDPKGS
-
-RUN mkdir /usr/src && cd /usr/src && \
-    git clone https://github.com/simh/simh.git
-    
-RUN cd /usr/src/simh && \
+    apk --no-cache add --virtual build-dependencies $BUILDPKGS && \
+    mkdir /usr/src && cd /usr/src && \
+    git clone https://github.com/simh/simh.git && \
+    cd /usr/src/simh && \
     #sed -e "s/\$(error Retry your build without specifying USE_NETWORK=1)/# SUPRESSED /g" makefile > makefile2 && \
     #make LIBPATH=/usr/lib INCPATH=/usr/include USE_NETWORK=1 -f makefile2 all && \
-    make LIBPATH=/usr/lib INCPATH=/usr/include -j $(nproc) all
-    
-RUN apk del build-dependencies && \
+    make LIBPATH=/usr/lib INCPATH=/usr/include -j $(nproc) all && \
+    apk del build-dependencies && \
     rm -rf /var/cache/apk/* && \
     find /machines -name "*.sh" -exec chmod 755 {} \; 
     

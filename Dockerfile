@@ -3,12 +3,12 @@ FROM alpine:edge
 ENV RUNPKGS "simh net-tools vde2 vde2-libs libpcap nano readline bash curl wget unzip"
 COPY /machines/ /machines/
 
-RUN cat /etc/apk/repositories
-
+RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories 
 
 RUN apk --update --no-cache add $RUNPKGS && rm -rf /var/cache/apk/* && \
-    rm -rf /var/cache/apk/* && \
-    find /machines -name "*.sh" -exec chmod 755 {} \; 
+    rm -rf /var/cache/apk/*
+    
+RUN find /machines -name "*.sh" -exec chmod 755 {} \; 
     
 #ENV PATH /usr/src/simh/BIN:$PATH
 

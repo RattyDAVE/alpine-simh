@@ -2,6 +2,10 @@
 FROM alpine:edge
 ENV RUNPKGS "simh net-tools vde2 vde2-libs libpcap nano readline bash curl wget unzip"
 COPY /machines/ /machines/
+
+RUN cat /etc/apk/repositories
+
+
 RUN apk --update --no-cache add $RUNPKGS && rm -rf /var/cache/apk/* && \
     rm -rf /var/cache/apk/* && \
     find /machines -name "*.sh" -exec chmod 755 {} \; 

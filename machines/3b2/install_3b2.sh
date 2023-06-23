@@ -7,7 +7,7 @@ echo Taken From https://loomcom.com/3b2/emulator/
 #wget https://static.loomcom.com/3b2/emulator/nvram.bin
 
 # https://github.com/RattyDAVE/alpine-simh/issues/4
-# Thanks to Chris (https://github.com/crdotson)
+echo  Thanks to Chris (https://github.com/crdotson) for the help.
 wget https://archives.loomcom.com/3b2/emulator/extras_gnu_src.img.gz
 gzip -d extras_gnu_src.img.gz
 wget https://archives.loomcom.com/3b2/emulator/700/nvram.bin

@@ -11,6 +11,8 @@ echo Taken From https://loomcom.com/3b2/emulator/
 wget https://archives.loomcom.com/3b2/emulator/extras_gnu_src.img.gz
 gzip -d extras_gnu_src.img.gz
 wget https://archives.loomcom.com/3b2/emulator/700/nvram.bin
+wget https://archives.loomcom.com/3b2/emulator/3b2_400.bin
+
 
 
 #curl -L -o hd161.img.gz -d "nopassword=1" https://download.cloudatcost.com/download/npbnp1q1qdhb1lexof8mvxsog

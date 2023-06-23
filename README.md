@@ -16,13 +16,19 @@ Use https://github.com/RattyDAVE/alpine-simh/issues to send feedback, issues, co
 # Usage
 
 ```
-docker run --name mini -it rattydave/alpine-simh
+docker run \
+    --name mini \
+    -it \
+    -p 2323:2323 \
+    -p 2324:2324 \
+    -p 2325:2325 \
+    -p 2326:2326 \
+    rattydave/alpine-simh
 ```
 
 simh built from the latest source.
 
-- rattydave/alpine-simh:core   - The latest simh built from source (at build time).
-- rattydave/alpine-simh:latest - as rattydave/alpine-simh:core but with the scripts to install the machines too.
+- rattydave/alpine-simh:latest - built from OpenSIMH source with the scripts to install the machines too.
 
 
 ## Auto Update

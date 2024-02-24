@@ -20,9 +20,6 @@ RUN apk --update --no-cache add $RUNPKGS && rm -rf /var/cache/apk/* && \
     find /machines -name "*.sh" -exec chmod 755 {} \; 
     
 ENV PATH /usr/src/simh/BIN:$PATH
-
 EXPOSE 2323-2326
-
 WORKDIR /machines
-
 ENTRYPOINT ["busybox", "sh"]

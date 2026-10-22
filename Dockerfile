@@ -65,7 +65,7 @@ RUN cmake -G Ninja \
     -DWITH_VIDEO=OFF \
     ..
 
-RUN ninja
+RUN ninja -j $(nproc)
 
 RUN cmake --install .
 

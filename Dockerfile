@@ -10,12 +10,12 @@ COPY /machines/ /machines/
 RUN apk --update --no-cache add $RUNPKGS && rm -rf /var/cache/apk/* && \
     apk --no-cache add --virtual build-dependencies $BUILDPKGS && \
     mkdir /usr/src && cd /usr/src && \
-    git clone https://github.com/open-simh/simh.git && \
-    cd /usr/src/simh && \
+    git clone https://github.com/open-simh/simh.git
+    
     #sed -e "s/\$(error Retry your build without specifying USE_NETWORK=1)/# SUPRESSED /g" makefile > makefile2 && \
     #make LIBPATH=/usr/lib INCPATH=/usr/include USE_NETWORK=1 -f makefile2 all
     
-RUN    make LIBPATH=/usr/lib INCPATH=/usr/include -j $(nproc) all
+RUN    cd /usr/src/simh && make LIBPATH=/usr/lib INCPATH=/usr/include -j $(nproc) all
 
 RUN    apk del build-dependencies && \
     rm -rf /var/cache/apk/* && \
